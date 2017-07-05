@@ -1,0 +1,12 @@
+[submodule "frontend-nanodegree-feedreader"]
+	path = frontend-nanodegree-feedreader
+	url = https://github.com/udacity/frontend-nanodegree-feedreader
+[submodule "frontend-nanodegree-arcade-game"]
+	path = frontend-nanodegree-arcade-game
+	url = https://github.com/udacity/frontend-nanodegree-arcade-game
+[submodule "frontend-nanodegree-mobile-portfolio"]
+	path = frontend-nanodegree-mobile-portfolio
+	url = https://github.com/udacity/frontend-nanodegree-mobile-portfolio
+[submodule "frontend-nanodegree-resume"]
+	path = frontend-nanodegree-resume
+	url = https://github.com/udacity/frontend-nanodegree-resume
