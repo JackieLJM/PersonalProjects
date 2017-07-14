@@ -10,3 +10,6 @@
 [submodule "frontend-nanodegree-resume"]
 	path = frontend-nanodegree-resume
 	url = https://github.com/udacity/frontend-nanodegree-resume
+[submodule "MyReads-A-Book-Lending-App"]
+	path = MyReads-A-Book-Lending-App
+	url = https://github.com/JackieLJM/MyReads-A-Book-Lending-App
