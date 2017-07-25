@@ -10,3 +10,15 @@
 [submodule "frontend-nanodegree-Neighborhood-Map"]
 	path = frontend-nanodegree-Neighborhood-Map
 	url = https://github.com/JackieLJM/frontend-nanodegree-Neighborhood-Map.git
+[submodule "frontend-nanodegree-arcade-game"]
+	path = frontend-nanodegree-arcade-game
+	url = https://github.com/JackieLJM/frontend-nanodegree-arcade-game.git
+[submodule "frontend-nanodegree-resume"]
+	path = frontend-nanodegree-resume
+	url = https://github.com/JackieLJM/frontend-nanodegree-resume.git
+[submodule "frontend-nanodegree-feedreader"]
+	path = frontend-nanodegree-feedreader
+	url = https://github.com/JackieLJM/frontend-nanodegree-feedreader.git
+[submodule "frontend-nanodegree-mobile-portfolio"]
+	path = frontend-nanodegree-mobile-portfolio
+	url = https://github.com/JackieLJM/frontend-nanodegree-mobile-portfolio.git
