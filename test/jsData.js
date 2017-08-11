@@ -25,11 +25,15 @@ const defaultData = {
 }
 
 // function getData (token) {
-  let data = null;
+  let token=Math.random().toString(36).substr(-8);
+  let data = db[token];
+
   if (data == null) {
-    data = db["vcja3g3213r83gf"] = clone(defaultData)
+    data = db[token] = clone(defaultData)
     // 深复制数据到db object的键值对里，再提取该键值到新的变量
   }
+
+  
 //   return data
 // }
 console.log(data);
