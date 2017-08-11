@@ -4,6 +4,7 @@
   "description": "",
   "main": "test.js",
   "dependencies": {
+    "clone": "^2.1.1",
     "es6-promise": "^4.1.1",
     "jsdom": "^11.1.0",
     "localStorage": "^1.0.3",

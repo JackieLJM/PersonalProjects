@@ -22,3 +22,6 @@
 [submodule "frontend-nanodegree-resume"]
 	path = frontend-nanodegree-resume
 	url = https://github.com/JackieLJM/frontend-nanodegree-resume.git
+[submodule "readable"]
+	path = readable
+	url = https://github.com/jackieljm/readable.git
