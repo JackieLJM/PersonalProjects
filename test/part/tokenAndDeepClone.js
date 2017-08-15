@@ -1,4 +1,5 @@
 const clone=require('clone');
+// the spread operator only goes one level deep. 
 let db = {}
 
 const defaultData = {
