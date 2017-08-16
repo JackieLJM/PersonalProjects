@@ -262,86 +262,121 @@ x2 = sumFour(1)(2)(3)(4);
 
 
 // ES5用function实现队列
-function Queue() {
-    this.dataStore = [];
-    this.enqueue = enqueue;
-    this.dequeue = dequeue;
-    this.front = front;
-    this.back = back;
-    this.toString = toString;
-    this.empty = empty;
-}
-
-function enqueue(element) {
-    this.dataStore.push(element);
-}
-
-function dequeue() {
-    return this.dataStore.shift();
-}
-
-function front() {
-    return this.dataStore[0];
-}
-
-function back() {
-    return this.dataStore[this.dataStore.length - 1];
-}
-
-function toString() {
-    var retStr = "";
-    for (var i = 0; i < this.dataStore.length; ++i) {
-        retStr += this.dataStore[i] + "\n";
-    }
-    return retStr;
-}
-
-function empty() {
-    if (this.dataStore.length == 0) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-
-
-
-    /**
-     * Simple object check.
-     * @param item
-     * @returns {boolean}
-     */
-    function isObject(item) {
-        return (item && typeof item === 'object' && !Array.isArray(item));
+(function () {
+    function Queue() {
+        this.dataStore = [];
+        this.enqueue = enqueue;
+        this.dequeue = dequeue;
+        this.front = front;
+        this.back = back;
+        this.toString = toString;
+        this.empty = empty;
     }
 
+    function enqueue(element) {
+        this.dataStore.push(element);
+    }
+
+    function dequeue() {
+        return this.dataStore.shift();
+    }
+
+    function front() {
+        return this.dataStore[0];
+    }
+
+    function back() {
+        return this.dataStore[this.dataStore.length - 1];
+    }
+
+    function toString() {
+        var retStr = "";
+        for (var i = 0; i < this.dataStore.length; ++i) {
+            retStr += this.dataStore[i] + "\n";
+        }
+        return retStr;
+    }
+
+    function empty() {
+        if (this.dataStore.length == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+})();
 
 
 
-    /**
-     * Deep merge two objects.
-     * @param target
-     * @param ...sources
-     */
-    function mergeDeep(target, ...sources) {
-        if (!sources.length) return target;
-        const source = sources.shift();
 
-        if (isObject(target) && isObject(source)) {
-            for (const key in source) {
-                if (isObject(source[key])) {
-                    if (!target[key]) Object.assign(target, {
-                        [key]: {}
-                    });
-                    mergeDeep(target[key], source[key]);
-                } else {
-                    Object.assign(target, {
-                        [key]: source[key]
-                    });
-                }
+/**
+ * Simple object check.
+ * @param item
+ * @returns {boolean}
+ */
+function isObject(item) {
+    return (item && typeof item === 'object' && !Array.isArray(item));
+}
+
+
+
+
+/**
+ * Deep merge two objects.
+ * @param target
+ * @param ...sources
+ */
+function mergeDeep(target, ...sources) {
+    if (!sources.length) return target;
+    const source = sources.shift();
+
+    if (isObject(target) && isObject(source)) {
+        for (const key in source) {
+            if (isObject(source[key])) {
+                if (!target[key]) Object.assign(target, {
+                    [key]: {}
+                });
+                mergeDeep(target[key], source[key]);
+            } else {
+                Object.assign(target, {
+                    [key]: source[key]
+                });
             }
         }
-
-        return mergeDeep(target, ...sources);
     }
+
+    return mergeDeep(target, ...sources);
+}
+
+
+
+
+// deepclone
+var deepCopy = function( extendObj ){
+    var str, newObj = extendObj.constructor === Array ? [] : {};
+    if(typeof extendObj !== 'object'){
+        return;
+    } else if(window.JSON){
+        str = JSON.stringify(extendObj);
+        newObj = JSON.parse(str);
+    } else {
+        for(var key in extendObj){
+          if (!extendObj.hasOwnProperty(key)) return;
+            newObj[key] = typeof extendObj[key] === 'object' ?
+                    cloneObj(extendObj[key]) : extendObj[key];
+        }
+    }
+    return newObj;
+};
+
+var obj2 = {
+    names: ['test0', 'test1', 'test3']
+};
+
+var obj1 = deepCopy( obj2 );
+
+console.log( obj1, obj2 );
+
+obj2.names[1] = 'test0';
+
+console.log( obj1, obj2 );

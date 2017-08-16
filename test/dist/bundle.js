@@ -7348,7 +7348,10 @@ __webpack_require__(16).inherits(FetchError, Error);
 
 
 var BooksAPI = __webpack_require__(34);
-var B = BooksAPI.getAll().then();
+var book;
+var B = BooksAPI.getAll().then(function () {
+  return books;
+});
 console.log(B);
 
 /***/ }),
