@@ -7,7 +7,7 @@ const {
 } = (new JSDOM(`...`)).window;
 // console.log(document, JSDOM, jsdom);
 
-// 深复制方法
+// deep clone
 function deepCopy(parent, child) {
     var i,
         toStr = Object.prototype.toString,
@@ -24,6 +24,23 @@ function deepCopy(parent, child) {
         }
     }
     return child;
+}
+
+
+
+
+// shallow clone
+function shallowClone(source) {
+    if (!source && typeof source !== 'object') {
+        throw new Error('error arguments');
+    }
+    var targetObj = source.constructor === Array ? [] : {};
+    for (var keys in source) {
+        if (source.hasOwnProperty(keys)) {
+            targetObj[keys] = source[keys];
+        }
+    }
+    return targetObj;
 }
 
 
@@ -351,19 +368,19 @@ function mergeDeep(target, ...sources) {
 
 
 
-// deepclone
-var deepCopy = function( extendObj ){
+// deep clone
+var deepCopy = function (extendObj) {
     var str, newObj = extendObj.constructor === Array ? [] : {};
-    if(typeof extendObj !== 'object'){
+    if (typeof extendObj !== 'object') {
         return;
-    } else if(window.JSON){
+    } else if (window.JSON) {
         str = JSON.stringify(extendObj);
         newObj = JSON.parse(str);
     } else {
-        for(var key in extendObj){
-          if (!extendObj.hasOwnProperty(key)) return;
+        for (var key in extendObj) {
+            if (!extendObj.hasOwnProperty(key)) return;
             newObj[key] = typeof extendObj[key] === 'object' ?
-                    cloneObj(extendObj[key]) : extendObj[key];
+                cloneObj(extendObj[key]) : extendObj[key];
         }
     }
     return newObj;
@@ -373,10 +390,90 @@ var obj2 = {
     names: ['test0', 'test1', 'test3']
 };
 
-var obj1 = deepCopy( obj2 );
+var obj1 = deepCopy(obj2);
 
-console.log( obj1, obj2 );
+console.log(obj1, obj2);
 
 obj2.names[1] = 'test0';
 
-console.log( obj1, obj2 );
+console.log(obj1, obj2);
+
+
+
+
+// 对象、函数、形参、返回可以这样用
+function setName(obj) {
+    obj.name = "gay"
+    obj = new Object();
+    obj.name = "les"
+    return obj;
+}
+var person = new Object();
+var person1 = setName(person);
+console.log(person.name); //"gay"
+console.log(person1.name); //"les"
+
+
+
+
+// ES5用function实现链表
+function Node(element) {
+    this.element = element;
+    this.next = null;
+}
+function LList() {
+    this.head = new Node("head");
+    this.find = find;
+    this.insert = insert;
+    this.remove = remove;
+    this.findPrevious=findPrevious;
+    this.display = display;
+}
+
+function find(item) {
+    var currNode = this.head;
+    while (currNode.element != item) {
+        currNode = currNode.next;
+    }
+    return currNode;
+}
+
+function insert(newElement, item) {
+    var newNode = new Node(newElement);
+    var current = this.find(item);
+    newNode.next = current.next;
+    current.next = newNode;
+}
+
+function display() {
+    var currNode = this.head;
+    while (!(currNode.next == null)) {
+        print(currNode.next.element);
+        currNode = currNode.next;
+    }
+}
+
+function findPrevious(item) {
+    var currNode = this.head;
+    while (!(currNode.next == null) &&
+        (currNode.next.element != item)) {
+        currNode = currNode.next;
+    }
+    return currNode;
+}
+
+function remove(item) {
+    var prevNode = this.findPrevious(item);
+    if (!(prevNode.next == null)) {
+        prevNode.next = prevNode.next.next;
+    }
+}
+var cities = new LList();
+cities.insert("Conway", "head");
+cities.insert("Russellville", "Conway");
+cities.insert("Carlisle", "Russellville");
+cities.insert("Alma", "Carlisle");
+cities.display();
+console.log();
+cities.remove("Carlisle");
+cities.display();
