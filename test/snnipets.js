@@ -1,13 +1,7 @@
 const jsdom = require('jsdom');
-const {
-    JSDOM
-} = jsdom;
-const {
-    document
-} = (new JSDOM(`...`)).window;
-// console.log(document, JSDOM, jsdom);
-
-// deep clone
+const {JSDOM} = jsdom;
+const {document} = (new JSDOM(`...`)).window;
+// console.log(document, JSDOM, jsdom); deep clone
 function deepCopy(parent, child) {
     var i,
         toStr = Object.prototype.toString,
@@ -16,7 +10,9 @@ function deepCopy(parent, child) {
     for (i in parent) {
         if (parent.hasOwnProperty(i)) {
             if (typeof parent[i] == "object") { //判断是否是对象
-                child[i] = (toStr.call(parent[i]) == arrayStr) ? [] : {}; //判断是数组还是对象
+                child[i] = (toStr.call(parent[i]) == arrayStr)
+                    ? []
+                    : {}; //判断是数组还是对象
                 deepCopy(parent[i], child[i]); //递归遍历复制
             } else {
                 child[i] = parent[i];
@@ -26,15 +22,14 @@ function deepCopy(parent, child) {
     return child;
 }
 
-
-
-
 // shallow clone
 function shallowClone(source) {
     if (!source && typeof source !== 'object') {
         throw new Error('error arguments');
     }
-    var targetObj = source.constructor === Array ? [] : {};
+    var targetObj = source.constructor === Array
+        ? []
+        : {};
     for (var keys in source) {
         if (source.hasOwnProperty(keys)) {
             targetObj[keys] = source[keys];
@@ -42,9 +37,6 @@ function shallowClone(source) {
     }
     return targetObj;
 }
-
-
-
 
 // bind方法
 if (!Function.prototype.bind) {
@@ -58,9 +50,6 @@ if (!Function.prototype.bind) {
     };
 }
 
-
-
-
 //object create方法
 Object.create = function (o) {
     var F = function () {};
@@ -68,35 +57,34 @@ Object.create = function (o) {
     return new F();
 }
 
-
-
-
-//给所有对象添加方法，通过扩展Object实现，下面通过调用a.method('name',function(){})实现参数里的方法定义到Object的方法,下面定义的方法能进行链式调用
+//给所有对象添加方法，通过扩展Object实现，下面通过调用a.method('name',function(){})实现参数里的方法定义到Object的方法
+//,下面定义的方法能进行链式调用
 Object.prototype.method = function (name, fun) {
     this.prototype[name] = fun;
     return this;
 }
 
-
-
-
 // reduce方法,acc cur,index,array为每次默认自动传入的值，此时arr的增删元素不会传给callback
-'arr.reduce(callback(accumulator, currentValue, currentIndex, array), [initialValue]);'
-
-
-
+'arr.reduce(callback(accumulator, currentValue, currentIndex, array), [initialVal' +
+    'ue]);'
 
 //多元化curry函数
 function curry(fx) {
     var arity = fx.length;
 
     return function f1() {
-        var args = Array.prototype.slice.call(arguments, 0);
+        var args = Array
+            .prototype
+            .slice
+            .call(arguments, 0);
         if (args.length >= arity) {
             return fx.apply(null, args);
         } else {
             return function f2() {
-                var args2 = Array.prototype.slice.call(arguments, 0);
+                var args2 = Array
+                    .prototype
+                    .slice
+                    .call(arguments, 0);
                 return f1.apply(null, args.concat(args2));
             }
         }
@@ -110,9 +98,6 @@ f2 = sumFour(1)(2, 3); // returns a function awaiting one argument
 f3 = sumFour(1, 2, 7); // returns a function awaiting one argument
 x = sumFour(1, 2, 3, 4); // sumFour has been fully applied; x is equal to 1+2+3+4=10
 x2 = sumFour(1)(2)(3)(4);
-
-
-
 
 //ES5用function实现List类
 (function () {
@@ -154,7 +139,9 @@ x2 = sumFour(1)(2)(3)(4);
     function remove(element) {
         var foundAt = this.find(element);
         if (foundAt > -1) {
-            this.dataStore.splice(foundAt, 1);
+            this
+                .dataStore
+                .splice(foundAt, 1);
             --this.listSize;
             return true;
         }
@@ -168,7 +155,9 @@ x2 = sumFour(1)(2)(3)(4);
     function insert(element, after) {
         var insertPos = this.find(after);
         if (insertPos > -1) {
-            this.dataStore.splice(insertPos + 1, 0, element);
+            this
+                .dataStore
+                .splice(insertPos + 1, 0, element);
             ++this.listSize;
             return true;
         }
@@ -223,9 +212,6 @@ x2 = sumFour(1)(2)(3)(4);
     }
 })();
 
-
-
-
 //ES5用function实现栈结构
 (function () {
     function Stack() {
@@ -261,22 +247,16 @@ x2 = sumFour(1)(2)(3)(4);
     s.push("David");
     s.push("Raymond");
     s.push("Bryan");
-    // console.log("length: " + s.length());
-    // console.log(s.peek());
+    // console.log("length: " + s.length()); console.log(s.peek());
     var popped = s.pop();
-    // console.log("The popped element is: " + popped);
-    // console.log(s.peek());
+    // console.log("The popped element is: " + popped); console.log(s.peek());
     s.push("Cynthia");
     // console.log(s.peek());
     s.clear();
-    // console.log("length: " + s.length());
-    // console.log(s.peek());
+    // console.log("length: " + s.length()); console.log(s.peek());
     s.push("Clayton");
     // console.log(s.peek());
 })();
-
-
-
 
 // ES5用function实现队列
 (function () {
@@ -291,11 +271,15 @@ x2 = sumFour(1)(2)(3)(4);
     }
 
     function enqueue(element) {
-        this.dataStore.push(element);
+        this
+            .dataStore
+            .push(element);
     }
 
     function dequeue() {
-        return this.dataStore.shift();
+        return this
+            .dataStore
+            .shift();
     }
 
     function front() {
@@ -323,9 +307,6 @@ x2 = sumFour(1)(2)(3)(4);
     }
 })();
 
-
-
-
 /**
  * Simple object check.
  * @param item
@@ -335,29 +316,24 @@ function isObject(item) {
     return (item && typeof item === 'object' && !Array.isArray(item));
 }
 
-
-
-
 /**
  * Deep merge two objects.
  * @param target
  * @param ...sources
  */
 function mergeDeep(target, ...sources) {
-    if (!sources.length) return target;
+    if (!sources.length) 
+        return target;
     const source = sources.shift();
 
     if (isObject(target) && isObject(source)) {
         for (const key in source) {
             if (isObject(source[key])) {
-                if (!target[key]) Object.assign(target, {
-                    [key]: {}
-                });
+                if (!target[key]) 
+                    Object.assign(target, {[key]: {}});
                 mergeDeep(target[key], source[key]);
             } else {
-                Object.assign(target, {
-                    [key]: source[key]
-                });
+                Object.assign(target, {[key]: source[key]});
             }
         }
     }
@@ -365,12 +341,12 @@ function mergeDeep(target, ...sources) {
     return mergeDeep(target, ...sources);
 }
 
-
-
-
 // deep clone
 var deepCopy = function (extendObj) {
-    var str, newObj = extendObj.constructor === Array ? [] : {};
+    var str,
+        newObj = extendObj.constructor === Array
+            ? []
+            : {};
     if (typeof extendObj !== 'object') {
         return;
     } else if (window.JSON) {
@@ -378,9 +354,11 @@ var deepCopy = function (extendObj) {
         newObj = JSON.parse(str);
     } else {
         for (var key in extendObj) {
-            if (!extendObj.hasOwnProperty(key)) return;
-            newObj[key] = typeof extendObj[key] === 'object' ?
-                cloneObj(extendObj[key]) : extendObj[key];
+            if (!extendObj.hasOwnProperty(key)) 
+                return;
+            newObj[key] = typeof extendObj[key] === 'object'
+                ? cloneObj(extendObj[key])
+                : extendObj[key];
         }
     }
     return newObj;
@@ -398,9 +376,6 @@ obj2.names[1] = 'test0';
 
 console.log(obj1, obj2);
 
-
-
-
 // 对象、函数、形参、返回可以这样用
 function setName(obj) {
     obj.name = "gay"
@@ -413,9 +388,6 @@ var person1 = setName(person);
 console.log(person.name); //"gay"
 console.log(person1.name); //"les"
 
-
-
-
 // ES5用function实现链表
 function Node(element) {
     this.element = element;
@@ -426,7 +398,7 @@ function LList() {
     this.find = find;
     this.insert = insert;
     this.remove = remove;
-    this.findPrevious=findPrevious;
+    this.findPrevious = findPrevious;
     this.display = display;
 }
 
@@ -455,8 +427,7 @@ function display() {
 
 function findPrevious(item) {
     var currNode = this.head;
-    while (!(currNode.next == null) &&
-        (currNode.next.element != item)) {
+    while (!(currNode.next == null) && (currNode.next.element != item)) {
         currNode = currNode.next;
     }
     return currNode;
@@ -477,3 +448,31 @@ cities.display();
 console.log();
 cities.remove("Carlisle");
 cities.display();
+
+// HashTable
+function HashTable() {
+    this.table = new Array(137);
+    this.simpleHash = simpleHash;
+    this.showDistro = showDistro;
+    this.put = put;
+    //this.get = get;
+}
+function put(data) {
+    var pos = this.simpleHash(data);
+    this.table[pos] = data;
+}
+function simpleHash(data) {
+    var total = 0;
+    for (var i = 0; i < data.length; ++i) {
+        total += data.charCodeAt(i);
+    }
+    return total % this.table.length;
+}
+function showDistro() {
+    var n = 0;
+    for (var i = 0; i < this.table.length; ++i) {
+        if (this.table[i] != undefined) {
+            print(i + ": " + this.table[i]);
+        }
+    }
+}
