@@ -46,3 +46,27 @@ const data = [
     { name: 'David', favoriteIceCreams: ['Vanilla', 'French Vanilla', 'Vanilla Bean', 'Strawberry'] },
     { name: 'Karl', favoriteIceCreams: ['Strawberry', 'Chocolate', 'Mint Chocolate Chip'] }
 ];
+
+
+// HOC组件可以这样运用，将可替换组件作为形参传入container组件
+import React from 'react';
+import logo from '../logo.svg';
+const PageShell = Page => { 
+  return props => {/* [1]*/}
+    <div className="page">
+        <img src={logo} alt="" />
+        <Page {...props} /> {/* [2]*/}
+    </div>;
+};
+export default PageShell;
+
+
+// redux中间件写法
+const logger = store => next => action => {
+    console.group(action.type)
+    console.info('dispatching', action)
+    let result = next(action)
+    console.log('next state', store.getState())
+    console.groupEnd(action.type)
+    return result
+  }
