@@ -7708,11 +7708,7 @@ ContactsAPI.getAll().then(function (contacts) {
         contacts: contacts
     };
 });
-console.log(ContactsAPI.getAll().then(function (contacts) {
-    state.contacts = {
-        contacts: contacts
-    };
-}));
+console.log(state);
 
 /***/ }),
 /* 36 */
