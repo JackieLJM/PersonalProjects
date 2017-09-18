@@ -1,6 +1,6 @@
-[submodule "MyReads-A-Book-Lending-App"]
-	path = MyReads-A-Book-Lending-App
-	url = https://github.com/JackieLJM/MyReads-A-Book-Lending-App
+[submodule "MyReads-A-Book-Tracking-App"]
+	path = MyReads-A-Book-Tracking-App
+	url = https://github.com/JackieLJM/MyReads-A-Book-Tracking-App
 [submodule "Health-Tracker"]
 	path = Health-Tracker
 	url = https://github.com/JackieLJM/Health-Tracker.git

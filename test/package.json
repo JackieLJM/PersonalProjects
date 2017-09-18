@@ -5,11 +5,15 @@
   "main": "test.js",
   "babel": {
     "presets": [
-      ["env", {
-        "targets": {
-          "node": "current"
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
         }
-      }], "react"
+      ],
+      "react"
     ]
   },
   "dependencies": {
@@ -17,6 +21,7 @@
     "deepmerge": "^1.5.0",
     "es6-promise": "^4.1.1",
     "jsdom": "^11.1.0",
+    "jsdom-global": "^3.0.2",
     "localStorage": "^1.0.3",
     "node-fetch": "^1.7.1"
   },

@@ -5662,7 +5662,7 @@ function Headers(headers) {
 		} else if (typeof headers[prop] === 'number' && !isNaN(headers[prop])) {
 			this.set(prop, headers[prop].toString());
 
-		} else if (headers[prop] instanceof Array) {
+		} else if (Array.isArray(headers[prop])) {
 			headers[prop].forEach(function(item) {
 				self.append(prop, item.toString());
 			});
@@ -7662,9 +7662,6 @@ module.exports = FetchError;
  */
 function FetchError(message, type, systemError) {
 
-	// hide custom error implementation details from end-users
-	Error.captureStackTrace(this, this.constructor);
-
 	this.name = this.constructor.name;
 	this.message = message;
 	this.type = type;
@@ -7674,6 +7671,8 @@ function FetchError(message, type, systemError) {
 		this.code = this.errno = systemError.code;
 	}
 
+	// hide custom error implementation details from end-users
+	Error.captureStackTrace(this, this.constructor);
 }
 
 __webpack_require__(16).inherits(FetchError, Error);
@@ -7692,7 +7691,9 @@ var ContactsAPI = _interopRequireWildcard(_ContactsAPI);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
-var BooksAPI = __webpack_require__(97);
+__webpack_require__(97)();
+
+var BooksAPI = __webpack_require__(98);
 var book;
 var B = BooksAPI.getAll().then(function () {
     return books;
@@ -7709,6 +7710,18 @@ ContactsAPI.getAll().then(function (contacts) {
     };
 });
 console.log(state);
+
+// var getMeta=(url)=>{
+//     var w,h,img=new Image();
+//     img.src=url;
+//     img.onload=function(){
+//         w=this.width;
+//         h=this.height;
+//     }
+//     return {w:w,h:h}
+// }
+// var wh= getMeta('https://books.google.com/books/content?id=sJf1vQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api')
+console.log(document);
 
 /***/ }),
 /* 36 */
@@ -19766,6 +19779,22 @@ Request.prototype.clone = function() {
 
 /***/ }),
 /* 97 */
+/***/ (function(module, exports) {
+
+/*
+ * this is what browserify will use if you use browserify on your tests.
+ * no need to bootstrap a DOM environment in a browser.
+ */
+
+module.exports = function () {
+  return noop
+}
+
+function noop () { }
+
+
+/***/ }),
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
