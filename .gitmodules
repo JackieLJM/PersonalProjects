@@ -25,3 +25,6 @@
 [submodule "readable"]
 	path = readable
 	url = https://github.com/jackieljm/readable.git
+[submodule "Mobile-Flashcards"]
+	path = Mobile-Flashcards
+	url = https://github.com/JackieLJM/Mobile-Flashcards
