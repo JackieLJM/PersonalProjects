@@ -32,6 +32,8 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
     "webpack": "^3.4.1"
   },
   "scripts": {
