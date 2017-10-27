@@ -143,67 +143,7 @@
         console.log(aaa);
         console.log(typeof null);
 
-        // 不能在构造函数写返回值，否则实例不能获取原型的方法属性或者this的方法属性
-        (function Return() {
-            function getaR() {
-                var a = "a";
-                this.a = "aa";
-                // return a;
-            }
-            // getaR.prototype.a="bbbbb";
-            // 调用构造函数先返回变量a，没有变量a再返回this里的a
-
-
-            function geta() {
-                var a = "a";
-                this.a = "aa";
-            }
-            var appleapple = new geta();
-            appleapple.a = "aaaa";
-            geta.prototype.a = "aaa";
-            console.log(appleapple.a);
-            console.log(getaR());
-            console.log(new getaR().a);
-            // 构造函数没new不能访问this和prototype的属性方法，先访问this,再访问prototype
-
-
-            function getaRR() {
-                var a = "a";
-                this.a = "aa";
-                // getaRR.prototype.a="aaa";
-                // return getaRR.prototype;
-                return this;
-            }
-            console.log(new getaRR().a);
-            var RR = new getaRR();
-            // 但是可以通过返回this和prototype达到调用构造函数属性方法的目的
-            (function (RR) {
-                function getaRRR() {
-                    var a = "b";
-                    var c = "b";
-                    this.a = "aaa";
-                    // this.c = "cc";
-                    console.log(this);
-                }
-                getaRRR.prototype = RR;
-                console.log(getaRRR.prototype);
-                getaRRR.prototype = {
-                    a: "c",
-                    c: "c",
-                    getaaa: this.a,
-                    // 这里的值怎么是"aa"的原因，getaR()函数调用定义了this.a的值，如果没在当前函数定义值，则指向DOM的div#a
-                    getc: this.c,
-                    getaa: (function () { this.a = "aaaaa"; return this.a })()
-                }
-                console.log(window.a)
-                console.log(getaRRR.prototype);
-                console.log(new getaRRR().a);
-                console.log(new getaRRR().c);
-                console.log(new getaRRR().getaaa);
-                // 该构造函数的原型里写字面量，prototype里面的this指向window,不能在该字面量里引用字面量里的属性
-            })(RR);
-        })();
-
+       
 
 
 

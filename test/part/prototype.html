@@ -11,6 +11,7 @@
 <body>
     <div id="a"></div>
     <script>
+        // 不能在构造函数写返回值，否则实例不能获取原型的方法属性或者this的方法属性
     (function Return() {
         function getaR() {
             this.a = "aa";
