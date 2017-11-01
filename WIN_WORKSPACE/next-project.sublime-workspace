@@ -445,9 +445,45 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "prett",
+		"last_filter": "op",
 		"selected_items":
 		[
+			[
+				"op",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"sync",
+				"Sync Settings: Upload"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"up",
+				"Sync Settings: Upload"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
 			[
 				"prett",
 				"HTMLPrettify"
@@ -461,24 +497,12 @@
 				"View: Toggle Menu"
 			],
 			[
-				"op",
-				"File: Open In Browser - Testing Server"
-			],
-			[
 				"terminal",
 				"Terminal: Open"
 			],
 			[
-				"sync",
-				"Sync Settings: Edit User Settings"
-			],
-			[
 				"down",
 				"Sync Settings: Download"
-			],
-			[
-				"open",
-				"File: Open In Browser - Testing Server"
 			],
 			[
 				"color",
@@ -493,28 +517,12 @@
 				"Package Control: List Packages"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
 				"list",
 				"Package Control: List Packages"
 			],
 			[
 				"brow",
 				"Preferences: Browse Packages"
-			],
-			[
-				"li",
-				"Package Control: List Packages"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
 			],
 			[
 				"remove",
@@ -569,7 +577,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 570.0
+		"width": 592.0
 	},
 	"console":
 	{
@@ -590,6 +598,31 @@
 	},
 	"file_history":
 	[
+		"/C/Users/LIUJIAMING/Desktop/Workouts/.git/config",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitignore",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/masonry-template/preview.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/dist/css/materialize.css",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/parallax-template/preview.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/js/app.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/parallax-template/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/parallax-template/css/style.css",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/starter-template/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/Gruntfile.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/package.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/starter-template/preview.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/js/jquery.autocomplete.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/starter-template/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/css/style.css",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/css/autocomplete-styles.css",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/readme.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/img/burst_tiny.png",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/img/ajax-loader.gif",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-Neighborhood-Map/README.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/neighborhood-map/dev/js/data.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/neighborhood-map/dev/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/neighborhood-map/dev/js/app.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/more-function-be-added-to-arcade-game/frontend-nanodegree-arcade-game/index.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/index.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/css/style.css",
@@ -613,7 +646,6 @@
 		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/mobileEvent.html",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/.git/config",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/score.js",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/score.html",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/build/score.html",
@@ -658,7 +690,6 @@
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.html",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.css",
 		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/css/t.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitignore",
 		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/index.html",
 		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/password.html",
 		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/exam.html",
@@ -684,14 +715,13 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
 		"height": 158.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -699,40 +729,62 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"getRandomArbitrary",
-			"player",
-			"frogger",
-			"octopus",
-			"frogger",
-			"octopus",
-			"objectsList",
-			"enemy",
-			"rendere",
-			"enemy",
-			"renderEntities",
-			"grass",
-			"init",
-			"update",
-			"allenemies",
-			"requestAnimationFrame",
-			"resources",
-			"Player.prototype.completedLevel = function()",
-			"allenemies",
-			"handleInput",
-			"handleinput",
-			"resetaftercollision",
-			"key.collected",
-			"item",
-			"key",
-			"enemy.update",
-			"checkCollisions",
-			"checkcollisions",
-			"player",
-			"Player",
-			"checkCollisions",
-			"Player.checkCollisions",
-			"player.checkCollisions",
-			"finishedGame"
+			"css-modules",
+			"material",
+			"centerMap",
+			"fa",
+			"grouponLocations",
+			"getGroupons",
+			"getGrou",
+			"num",
+			"maps",
+			"grouponDeals",
+			"filtered",
+			"filter",
+			"numDeals",
+			"searchLocation",
+			"filteredList",
+			"loadImg",
+			"clearFilter",
+			"grouponDeals",
+			"filterKeyword",
+			"filter",
+			"fliter",
+			"filterKeyword",
+			"select",
+			"auto",
+			"marker",
+			"goToMarker",
+			"media",
+			"dealstatus",
+			"map",
+			"grouponDeals",
+			"mapMarkers",
+			"mapInitialize",
+			"ko",
+			"components",
+			"component",
+			"autocomplete",
+			"push",
+			"getGrouponLocations",
+			"mobileShow",
+			"event",
+			"selectOnFocus",
+			"grouponDeals",
+			"goToMarker",
+			"map-canvas",
+			"dealAddress",
+			"bindingHandlers",
+			"appViewModel",
+			"searchStatus",
+			"searchLocation",
+			"burst_tiny",
+			"autocomplete",
+			"yelp",
+			"mapInitialize",
+			"groupon",
+			"autocomplete",
+			">\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -764,18 +816,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.466875,
 			1.0
 		],
 		"rows":
@@ -836,7 +881,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 211.0,
 	"status_bar_visible": true,
 	"template_settings":
