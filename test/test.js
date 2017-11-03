@@ -44,3 +44,4 @@ var getMeta=(url)=>{
 }
 var wh= getMeta('https://books.google.com/books/content?id=sJf1vQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api')
 console.log(wh);
+

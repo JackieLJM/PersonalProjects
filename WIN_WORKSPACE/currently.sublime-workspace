@@ -437,6 +437,9 @@
 			]
 		]
 	},
+	"buffers":
+	[
+	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -588,6 +591,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+	],
 	"file_history":
 	[
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/more-function-be-added-to-arcade-game/frontend-nanodegree-arcade-game/index.html",
@@ -684,7 +690,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -747,9 +753,22 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -790,9 +809,10 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
+	"project": "currently.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -830,6 +850,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 1,
 	"settings":
 	{
 	},
