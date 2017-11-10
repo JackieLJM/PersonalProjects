@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"remove",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"re",
+				"removeAttr〔function〕"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"doc",
+				"document\t: Document Window"
+			],
+			[
+				"da",
+				"da\tdata"
+			],
+			[
 				"rt",
 				"rt\tTest"
 			],
@@ -44,10 +116,6 @@
 				"false"
 			],
 			[
-				"re",
-				"removeEventListener〔function〕"
-			],
-			[
 				"getE",
 				"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Element"
 			],
@@ -74,10 +142,6 @@
 			[
 				"cli",
 				"clientHeight"
-			],
-			[
-				"doc",
-				"docEl"
 			],
 			[
 				"bu",
@@ -108,20 +172,12 @@
 				"require〔function〕"
 			],
 			[
-				"bac",
-				"background"
-			],
-			[
 				"d",
 				"display"
 			],
 			[
 				"pad",
 				"padding-right"
-			],
-			[
-				"pa",
-				"padding-left"
 			],
 			[
 				"a",
@@ -134,10 +190,6 @@
 			[
 				"align",
 				"align-self"
-			],
-			[
-				"al",
-				"align-content"
 			],
 			[
 				"fle",
@@ -154,14 +206,6 @@
 			[
 				"padd",
 				"padding"
-			],
-			[
-				"margin",
-				"margin"
-			],
-			[
-				"margi",
-				"margin-bottom"
 			],
 			[
 				"mar",
@@ -184,16 +228,8 @@
 				"innerWidth〔variable〕"
 			],
 			[
-				"add",
-				"addEventListener\t( type: DOMString, callback: EventListener, capture?: boolean ): void EventTarget"
-			],
-			[
 				"ta",
 				"target\t: EventTarget Event"
-			],
-			[
-				"fl",
-				"float"
 			],
 			[
 				"fel",
@@ -250,10 +286,6 @@
 			[
 				"cancel",
 				"cancelBigButton"
-			],
-			[
-				"remove",
-				"removeAttribute\t( name: DOMString ): void Element"
 			],
 			[
 				"big",
@@ -340,10 +372,6 @@
 				"getElementById\t( elementId: DOMString ): Element Document"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"tex",
 				"textContent\t: DOMString Node"
 			],
@@ -390,10 +418,6 @@
 			[
 				"text",
 				"text-align"
-			],
-			[
-				"li",
-				"line-height"
 			],
 			[
 				"spe",
@@ -449,9 +473,13 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "sync",
+		"last_filter": "list",
 		"selected_items":
 		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
 			[
 				"sync",
 				"Sync Settings: Download"
@@ -491,10 +519,6 @@
 			[
 				"remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
 			],
 			[
 				"re",
@@ -593,7 +617,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 600.0
+		"width": 528.0
 	},
 	"console":
 	{
@@ -614,6 +638,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/LIUJIAMING/Desktop/Works/2017-11-07/background-manager.html",
+		"/C/Users/LIUJIAMING/Desktop/Works/2017-11-07/background-manager.css",
+		"/C/Users/LIUJIAMING/Desktop/Works/2017-11-07/background-manager.js",
+		"/C/Users/LIUJIAMING/Desktop/Works/2017-11-07/lib/normalize.css",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/js/app.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/dist/css/materialize.css",
@@ -737,15 +765,11 @@
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/logo.css",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/build/logo.css",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/build/logo.png",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/logo.png",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/build/score.min.css",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.js",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.css"
+		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/logo.png"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -759,119 +783,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"mapRequestTimeout",
-			"mapInitialize",
-			"map",
-			"infowindow",
-			"grouponDeals",
-			"city",
-			"mapMarkers",
-			"clearMarkers",
-			"searchToggle",
-			"mobileShow",
-			"processLocationSearch",
-			"centerMap",
-			"clearFilter",
-			"toggleSymbol",
-			"mobileToggleList",
-			"searchToggle",
-			"processLocationSearch",
-			"script",
-			"map",
-			"searchBarShow",
-			"toggleSymbol",
-			"searchStatus",
-			"$$",
-			"material",
-			"mapMarkers",
-			"gotomarker",
-			"infowindow",
-			"contentString",
-			"searchStatus",
-			"loadImg",
-			"win",
-			"$",
-			"grouponReadableNames",
-			"json",
-			"location",
-			"jsonp",
-			"https://partner-api.groupon.com/division.json",
-			"jsonp",
-			"ajax",
-			"getGrouponLocations",
-			"clearMarkers",
-			"mobilebutton",
-			"searchbtn",
-			"searchBarShow",
-			"true",
-			"mobileShow",
-			"toggleSymbol",
-			"hide",
-			"gettingFoursquarePhotos",
-			"Foursquare",
-			"foursquare",
-			"stadiumdata",
-			"yelp",
-			"decodeHtmlEntity",
-			"buildNYTimesArticleURL",
-			"buildFoursquareSearchQuery",
-			"$$",
-			"css-modules",
-			"material",
-			"centerMap",
-			"fa",
-			"grouponLocations",
-			"getGroupons",
-			"getGrou",
-			"num",
-			"maps",
-			"grouponDeals",
-			"filtered",
-			"filter",
-			"numDeals",
-			"searchLocation",
-			"filteredList",
-			"loadImg",
-			"clearFilter",
-			"grouponDeals",
-			"filterKeyword",
-			"filter",
-			"fliter",
-			"filterKeyword",
-			"select",
-			"auto",
-			"marker",
-			"goToMarker",
-			"media",
-			"dealstatus",
-			"map",
-			"grouponDeals",
-			"mapMarkers",
-			"mapInitialize",
-			"ko",
-			"components",
-			"component",
-			"autocomplete",
-			"push",
-			"getGrouponLocations",
-			"mobileShow",
-			"event",
-			"selectOnFocus",
-			"grouponDeals",
-			"goToMarker",
-			"map-canvas",
-			"dealAddress",
-			"bindingHandlers",
-			"appViewModel",
-			"searchStatus",
-			"searchLocation",
-			"burst_tiny",
-			"autocomplete",
-			"yelp",
-			"mapInitialize",
-			"groupon",
-			"autocomplete",
-			">\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -903,25 +814,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.156207366985,
-			0.965893587995,
 			1.0
 		],
 		"rows":

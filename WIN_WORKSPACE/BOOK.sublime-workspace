@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"rt",
-				"rt\tTest"
-			],
-			[
 				"ima",
 				"images"
 			],
@@ -449,76 +445,12 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "sync",
+		"last_filter": "sy",
 		"selected_items":
 		[
 			[
-				"sync",
-				"Sync Settings: Download"
-			],
-			[
-				"open",
-				"File: Open In Browser - Testing Server"
-			],
-			[
-				"install",
-				"Nodejs::NPM::Install"
-			],
-			[
-				"syn",
+				"sy",
 				"Sync Settings: Upload"
-			],
-			[
-				"ma",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"lis",
-				"Package Control: List Packages"
-			],
-			[
-				"inst",
-				"Nodejs::NPM::Install"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"unin",
-				"Nodejs::NPM::Uninstall"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
-				"re",
-				"Package Control: Remove Package"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"op",
-				"File: Open In Browser - Testing Server"
-			],
-			[
-				"markdown",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"up",
-				"Sync Settings: Upload"
-			],
-			[
-				"li",
-				"Package Control: List Packages"
 			],
 			[
 				"prett",
@@ -533,12 +465,24 @@
 				"View: Toggle Menu"
 			],
 			[
+				"op",
+				"File: Open In Browser - Testing Server"
+			],
+			[
 				"terminal",
 				"Terminal: Open"
 			],
 			[
+				"sync",
+				"Sync Settings: Edit User Settings"
+			],
+			[
 				"down",
 				"Sync Settings: Download"
+			],
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
 			],
 			[
 				"color",
@@ -549,8 +493,36 @@
 				"UI: Select Theme"
 			],
 			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
 				"brow",
 				"Preferences: Browse Packages"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
 			],
 			[
 				"openin",
@@ -573,6 +545,10 @@
 				"File: Save All"
 			],
 			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
 				"canvas",
 				"Canvas Snippets: Open ChangeLog"
 			],
@@ -589,11 +565,15 @@
 				"LiveReload: Help"
 			],
 			[
+				"syn",
+				"Sync Settings: Create and Upload"
+			],
+			[
 				"br",
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 600.0
+		"width": 528.0
 	},
 	"console":
 	{
@@ -614,72 +594,16 @@
 	},
 	"file_history":
 	[
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/js/app.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/dist/css/materialize.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/android-dot-com/material.scss",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/portfolio/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/text-only/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/portfolio/about.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/portfolio/blog.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/portfolio/contact.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/portfolio/portfolio-example01.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/blog/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/dashboard/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/android-dot-com/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/article/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/src/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/test/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/package.json",
-		"/C/Users/LIUJIAMING/AppData/Local/Temp/360zip$Temp/360$1/bower.json",
-		"/C/Users/LIUJIAMING/AppData/Local/Temp/360zip$Temp/360$0/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/gulpfile.babel.js",
-		"/C/Users/LIUJIAMING/AppData/Local/Temp/360zip$Temp/360$1/install.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/js/jquery.autocomplete.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/starter-template/css/style.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/starter-template/preview.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/parallax-template/preview.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/starter-template/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/parallax-template/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/css/style.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/package-lock.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/neighborhood-map/dev/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/neighborhood-map/dev/js/data.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/neighborhood-map/dev/js/app.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/yelp-neighborhood-map/neighborhood-map/src/js/app.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/yelp-neighborhood-map/neighborhood-map/src/js/lib/oauth-signature.min.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/yelp-neighborhood-map/neighborhood-map/src/css/style.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/yelp-neighborhood-map/neighborhood-map/src/js/lib/snake.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/yelp-neighborhood-map/neighborhood-map/src/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/yelp-neighborhood-map/neighborhood-map/src/js/lib/oauth-1.0a.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/yelp-neighborhood-map/neighborhood-map/src/css/offline-theme-dark.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/yelp-neighborhood-map/neighborhood-map/js/app.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/yelp-neighborhood-map/neighborhood-map/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/yelp-neighborhood-map/neighborhood-map/gulpfile.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/neighborhood-map/README.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/neighborhood-map/package.json",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/templates/android-dot-com/styles.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/mern-starter/package.json",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/test.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/utils/uniffe.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/.drone.yml",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-design-lite/dist/material.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/.git/config",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitignore",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/masonry-template/preview.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/templates/parallax-template/css/style.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/Gruntfile.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/materialize/package.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/starter-template/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/css/autocomplete-styles.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/readme.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/img/burst_tiny.png",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/Project5-NeighborhoodMap/img/ajax-loader.gif",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-Neighborhood-Map/README.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/material-ui/examples/nextjs/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Books/React-Design-Patterns-and-Best-Practices/chapter-03/reusable-components/src/App.js",
+		"/C/Users/LIUJIAMING/Desktop/Books/React-Design-Patterns-and-Best-Practices/chapter-03/reusable-components/src/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Books/React-Design-Patterns-and-Best-Practices/chapter-03/reusable-components/src/components/post-list.js",
+		"/C/Users/LIUJIAMING/Desktop/Books/React-Design-Patterns-and-Best-Practices/chapter-03/reusable-components/src/components/user-list.js",
+		"/C/Users/LIUJIAMING/Desktop/Books/React-Design-Patterns-and-Best-Practices/chapter-03/reusable-components/src/components/list.js",
+		"/C/Users/LIUJIAMING/Desktop/Books/React-Design-Patterns-and-Best-Practices/chapter-03/reusable-components/src/components/item.js",
+		"/C/Users/LIUJIAMING/Desktop/Books/React-Design-Patterns-and-Best-Practices/chapter-03/reusable-components/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Books/React-Design-Patterns-and-Best-Practices/chapter-03/reusable-components/.storybook/config.js",
+		"/C/Users/LIUJIAMING/Desktop/Books/React-Design-Patterns-and-Best-Practices/chapter-03/reusable-components/index.html",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/more-function-be-added-to-arcade-game/frontend-nanodegree-arcade-game/index.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/index.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/css/style.css",
@@ -699,7 +623,11 @@
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/mobileEvent/index.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/hybrid-native-react-arch-test/App.js",
 		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/SyncSettings.sublime-settings",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/mobileEvent.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/.git/config",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/score.js",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/score.html",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/build/score.html",
@@ -725,6 +653,7 @@
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/dataStructure.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/jsA/fasterTraining/DomJquery/page1.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/nodeAsyn.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/test.js",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/menu/js/stopExecutionOnTimeout.js",
 		"/C/Users/LIUJIAMING/AppData/Local/Temp/tmp5F2B.tmp.txt",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/sublime.sublime-project",
@@ -741,7 +670,31 @@
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/build/score.min.css",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.js",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.css"
+		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.css",
+		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/css/t.css",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitignore",
+		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/password.html",
+		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/exam.html",
+		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/examlist.html",
+		"/C/Users/LIUJIAMING/Downloads/ZeroExamples.svg",
+		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/fastclick.js",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/LIUJIAMING/Downloads/未标题-3.svg",
+		"/C/Users/LIUJIAMING/Downloads/未标题-1.svg",
+		"/C/Users/LIUJIAMING/Downloads/未标题-2.svg",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/auto-save/Default (Windows).sublime-keymap",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/auto-save/auto_save.sublime-settings",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/auto_save.sublime-settings",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Canvas-Snippets/Changes.txt",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Terminality/Terminality.sublime-settings",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/Terminality.sublime-keymap",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Terminality/Default.sublime-keymap",
+		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/scoreResource/score.js",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/Terminality.sublime-settings",
+		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Terminality/README.md"
 	],
 	"find":
 	{
@@ -752,6 +705,7 @@
 		"height": 158.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -759,119 +713,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"mapRequestTimeout",
-			"mapInitialize",
-			"map",
-			"infowindow",
-			"grouponDeals",
-			"city",
-			"mapMarkers",
-			"clearMarkers",
-			"searchToggle",
-			"mobileShow",
-			"processLocationSearch",
-			"centerMap",
-			"clearFilter",
-			"toggleSymbol",
-			"mobileToggleList",
-			"searchToggle",
-			"processLocationSearch",
-			"script",
-			"map",
-			"searchBarShow",
-			"toggleSymbol",
-			"searchStatus",
-			"$$",
-			"material",
-			"mapMarkers",
-			"gotomarker",
-			"infowindow",
-			"contentString",
-			"searchStatus",
-			"loadImg",
-			"win",
-			"$",
-			"grouponReadableNames",
-			"json",
-			"location",
-			"jsonp",
-			"https://partner-api.groupon.com/division.json",
-			"jsonp",
-			"ajax",
-			"getGrouponLocations",
-			"clearMarkers",
-			"mobilebutton",
-			"searchbtn",
-			"searchBarShow",
-			"true",
-			"mobileShow",
-			"toggleSymbol",
-			"hide",
-			"gettingFoursquarePhotos",
-			"Foursquare",
-			"foursquare",
-			"stadiumdata",
-			"yelp",
-			"decodeHtmlEntity",
-			"buildNYTimesArticleURL",
-			"buildFoursquareSearchQuery",
-			"$$",
-			"css-modules",
-			"material",
-			"centerMap",
-			"fa",
-			"grouponLocations",
-			"getGroupons",
-			"getGrou",
-			"num",
-			"maps",
-			"grouponDeals",
-			"filtered",
-			"filter",
-			"numDeals",
-			"searchLocation",
-			"filteredList",
-			"loadImg",
-			"clearFilter",
-			"grouponDeals",
-			"filterKeyword",
-			"filter",
-			"fliter",
-			"filterKeyword",
-			"select",
-			"auto",
-			"marker",
-			"goToMarker",
-			"media",
-			"dealstatus",
-			"map",
-			"grouponDeals",
-			"mapMarkers",
-			"mapInitialize",
-			"ko",
-			"components",
-			"component",
-			"autocomplete",
-			"push",
-			"getGrouponLocations",
-			"mobileShow",
-			"event",
-			"selectOnFocus",
-			"grouponDeals",
-			"goToMarker",
-			"map-canvas",
-			"dealAddress",
-			"bindingHandlers",
-			"appViewModel",
-			"searchStatus",
-			"searchLocation",
-			"burst_tiny",
-			"autocomplete",
-			"yelp",
-			"mapInitialize",
-			"groupon",
-			"autocomplete",
-			">\n"
+			"getRandomArbitrary",
+			"player",
+			"frogger",
+			"octopus",
+			"frogger",
+			"octopus",
+			"objectsList",
+			"enemy",
+			"rendere",
+			"enemy",
+			"renderEntities",
+			"grass",
+			"init",
+			"update",
+			"allenemies",
+			"requestAnimationFrame",
+			"resources",
+			"Player.prototype.completedLevel = function()",
+			"allenemies",
+			"handleInput",
+			"handleinput",
+			"resetaftercollision",
+			"key.collected",
+			"item",
+			"key",
+			"enemy.update",
+			"checkCollisions",
+			"checkcollisions",
+			"player",
+			"Player",
+			"checkCollisions",
+			"Player.checkCollisions",
+			"player.checkCollisions",
+			"finishedGame"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -892,7 +767,7 @@
 	},
 	"input":
 	{
-		"height": 66.0
+		"height": 62.0
 	},
 	"layout":
 	{
@@ -909,19 +784,12 @@
 				0,
 				2,
 				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.156207366985,
-			0.965893587995,
+			0.44419306184,
 			1.0
 		],
 		"rows":
@@ -983,7 +851,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 134.0,
+	"side_bar_width": 274.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
