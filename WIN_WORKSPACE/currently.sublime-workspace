@@ -445,24 +445,36 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "prett",
+		"last_filter": "open",
 		"selected_items":
 		[
 			[
-				"prett",
-				"HTMLPrettify"
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
 			],
 			[
 				"ter",
 				"Terminal: Open in project folder"
 			],
 			[
-				"men",
-				"View: Toggle Menu"
-			],
-			[
 				"op",
 				"File: Open In Browser - Testing Server"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
 			],
 			[
 				"terminal",
@@ -475,10 +487,6 @@
 			[
 				"down",
 				"Sync Settings: Download"
-			],
-			[
-				"open",
-				"File: Open In Browser - Testing Server"
 			],
 			[
 				"color",
@@ -494,10 +502,6 @@
 			],
 			[
 				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"in",
 				"Package Control: Install Package"
 			],
 			[
@@ -569,7 +573,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 570.0
+		"width": 592.0
 	},
 	"console":
 	{
@@ -590,6 +594,40 @@
 	},
 	"file_history":
 	[
+		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/node_modules/react-router/docs/API.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/.gitignore",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/webpack.config.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/rollup.config.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router/docs/api/context.router.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/README.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/Root.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/Root.prod.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/services/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/public/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/docs/introduction/CoreConcepts.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/docs/introduction/ThreePrinciples.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/dist/redux-saga.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/docs/Glossary.md",
+		"/C/Users/LIUJIAMING/AppData/Local/Temp/87.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/docs/api/README.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/store/configureStore.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/middleware/api.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/.git/config",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/services/api.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux/src/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/.git",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/npm-debug.log",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/routes.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/README.md",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/more-function-be-added-to-arcade-game/frontend-nanodegree-arcade-game/index.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/index.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/css/style.css",
@@ -612,8 +650,6 @@
 		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
 		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/mobileEvent.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/.git/config",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/score.js",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/score.html",
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/build/score.html",
@@ -684,7 +720,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -699,6 +735,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"styled-components",
+			"layout",
+			"END",
+			"match",
+			"rootSaga",
+			"yelp",
+			"hacker",
+			"react",
+			"hack",
 			"getRandomArbitrary",
 			"player",
 			"frogger",
@@ -753,7 +798,7 @@
 	},
 	"input":
 	{
-		"height": 62.0
+		"height": 66.0
 	},
 	"layout":
 	{
@@ -775,7 +820,7 @@
 		"cols":
 		[
 			0.0,
-			0.466875,
+			0.305022156573,
 			1.0
 		],
 		"rows":
@@ -837,7 +882,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 313.0,
+	"side_bar_width": 246.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
