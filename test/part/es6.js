@@ -21,5 +21,12 @@ function comma(strings, ...values) {
   }, "");
 }
 
+// tagged template literals with interpolation function
 const snacks = ['apples', 'bananas', 'cherries'];
 comma`I like ${snacks} to snack on.`;
+
+const fish='fish';
+const number=2;
+const logArg=(...args)=>console.log(...args);
+logArg`I am superman with ${number} ${fish}`;
+logArg`I am Benjamin ${()=>console.log('text')}`;

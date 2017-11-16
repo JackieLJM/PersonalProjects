@@ -437,6 +437,17 @@
 			]
 		]
 	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
+			"settings":
+			{
+				"buffer_size": 13333,
+				"line_ending": "Unix"
+			}
+		}
+	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -450,7 +461,7 @@
 		[
 			[
 				"open",
-				"File: Open In Browser - Testing Server"
+				"Terminal: Open"
 			],
 			[
 				"in",
@@ -592,21 +603,88 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+	],
 	"file_history":
 	[
+		"/C/Users/LIUJIAMING/Desktop/Workouts/.git/config",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/package.json",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/middleware/api.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/reducers/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/reducers/paginate.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/store/configureStore.dev.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/store/configureStore.dev.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-demos/demo01/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/rmwc/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/store/configureStore.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/store/configureStore.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/store/configureStore.prod.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/package.json",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/shopping-cart/src/sagas/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/shopping-cart/src/services/products.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/shopping-cart/src/services/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/shopping-cart/src/components/App.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/shopping-cart/src/reducers/products.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/shopping-cart/src/reducers/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/shopping-cart/src/main.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/shopping-cart/src/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/shopping-cart/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/api/counter.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/server/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/server/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/counter/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-components-web/LICENSE",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/tree-view/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/Root.dev.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/reducers/selectors.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/routes.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/reducers/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/reducers/paginate.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/docs/react-native.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/Root.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/primitives/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/example/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/docs/flow-support.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/example/example.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/src/models/BrowserStyleSheet.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/src/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-components-web/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/example/with-perf.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/example/devServer.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-components-web/demos/button.html",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/package.json",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/client/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-dom/package.json",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/node_modules/react-router/package.json",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/server.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/config.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-website/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-redux/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-native/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-config/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-dom/docs/guides/server-rendering.md",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/posts.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/categories.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/comments.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/README.md",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/node_modules/react-router/docs/API.md",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/.gitignore",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/package.json",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/webpack.config.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/rollup.config.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router/docs/api/context.router.md",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/README.md",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/Root.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/Root.prod.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/services/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/public/index.html",
@@ -616,17 +694,10 @@
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/docs/Glossary.md",
 		"/C/Users/LIUJIAMING/AppData/Local/Temp/87.html",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/docs/api/README.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/store/configureStore.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/server.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/middleware/api.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/.git/config",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/services/api.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux/src/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/.git",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/package.json",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/npm-debug.log",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/routes.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/README.md",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/more-function-be-added-to-arcade-game/frontend-nanodegree-arcade-game/index.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/index.html",
@@ -664,59 +735,7 @@
 		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/deviceOrientation-demo/garden.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/DomJquery/jqueryData.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/DomJquery/DomJquery.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/jsA/fasterTraining/mouse.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/jsA/fasterTraining/mouse2.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/jsA/fasterTraining/prototype.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/jsA/fasterTraining/DomJquery/DomJquery.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Holidays-Countback-Webapp/reviewTheCountdowm.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Holidays-Countback-Webapp/timerToHolidayFor2017AndThen.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/jsA/fasterTraining/jqueryData.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/es6.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/dataStructure.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/jsA/fasterTraining/DomJquery/page1.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/nodeAsyn.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/test.js",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/menu/js/stopExecutionOnTimeout.js",
-		"/C/Users/LIUJIAMING/AppData/Local/Temp/tmp5F2B.tmp.txt",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/sublime.sublime-project",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/menu/readme.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/score.css",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/img/logo.png",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Sync Settings/SyncSettings.sublime-settings",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/gulpfile.js",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/logo.css",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/build/logo.css",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/build/logo.png",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/logo.png",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/build/score.min.css",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.js",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/score.css",
-		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/css/t.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitignore",
-		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/password.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/exam.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2016-12-21/mobileTeacher/examlist.html",
-		"/C/Users/LIUJIAMING/Downloads/ZeroExamples.svg",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/fastclick.js",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
-		"/C/Users/LIUJIAMING/Downloads/未标题-3.svg",
-		"/C/Users/LIUJIAMING/Downloads/未标题-1.svg",
-		"/C/Users/LIUJIAMING/Downloads/未标题-2.svg",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/auto-save/Default (Windows).sublime-keymap",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/auto-save/auto_save.sublime-settings",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/auto_save.sublime-settings",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Canvas-Snippets/Changes.txt",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Terminality/Terminality.sublime-settings",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/Terminality.sublime-keymap",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Terminality/Default.sublime-keymap",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/scoreResource/score.js",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/Terminality.sublime-settings",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Terminality/README.md"
+		"/C/Users/LIUJIAMING/Desktop/Workouts/jsA/fasterTraining/mouse.html"
 	],
 	"find":
 	{
@@ -735,6 +754,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"react-boilerplate",
+			"hack",
+			"react-design",
+			"fetchCounter",
+			"apiResult",
+			"compiler",
 			"styled-components",
 			"layout",
 			"END",
@@ -792,6 +817,122 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10435,
+								10435
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3388.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
 	"incremental_find":
 	{
 		"height": 28.0
@@ -820,7 +961,7 @@
 		"cols":
 		[
 			0.0,
-			0.305022156573,
+			0.963072378139,
 			1.0
 		],
 		"rows":
@@ -835,6 +976,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
+	"project": "currently.sublime-project",
 	"replace":
 	{
 		"height": 52.0
@@ -875,6 +1017,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
