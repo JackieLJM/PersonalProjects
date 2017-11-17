@@ -439,14 +439,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
-			"settings":
-			{
-				"buffer_size": 13333,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -584,7 +576,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 592.0
+		"width": 528.0
 	},
 	"console":
 	{
@@ -605,17 +597,98 @@
 	},
 	"expanded_folders":
 	[
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/razzle-material-ui-styled-example"
 	],
 	"file_history":
 	[
-		"/C/Users/LIUJIAMING/Desktop/Workouts/.git/config",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/middleware/api.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/razzle-material-ui-styled-example/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/reducers/counter.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/actions/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/store/configureStore.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/reducers/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/client/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/server/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/api/counter.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/components/Counter.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/containers/App.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/server/SSR/html.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/server/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/server/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/server/SSR/createSSR.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/client/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/client/root.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/services/api.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/counter/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/containers/Root.dev.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/containers/Root.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/reducers/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/reducers/paginate.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/store/configureStore.dev.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/middleware/api.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/counter/src/components/Counter.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/counter-vanilla/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/counter/src/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/store/configureStore.dev.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/.stylelintrc",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/app/config/default.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/server/start.babel.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/server/start.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/app/config/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/app/config/environment.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/app/components/App/Wrapper.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/src/app/components/App/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/README.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/webpack/universal-webpack-settings.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux-styled-hot-universal/static/favicon.ico",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/components/ProgressBar/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/components/ProgressBar/Wrapper.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/components/ProgressBar/Percent.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/components/ProgressBar/ProgressBar.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/.git/config",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/components/ToggleOption/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/components/Toggle/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/components/Toggle/Select.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/components/IssueIcon/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/components/A/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/global-styles.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/app.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/reducers.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/routes.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/store.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/i18n.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/manifest.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/containers/App/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/containers/LanguageProvider/selectors.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/containers/LanguageProvider/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/containers/LanguageProvider/constants.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/containers/LanguageProvider/actions.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/containers/LanguageProvider/reducer.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/utils/asyncInjectors.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/utils/request.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/translations/de.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/translations/en.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/containers/LocaleToggle/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/docs/css/styled-components.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/docs/README.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/server/logger.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/server/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/internals/config.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/internals/scripts/dependencies.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/server/middlewares/frontendMiddleware.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/internals/webpack/webpack.dev.babel.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/internals/webpack/webpack.prod.babel.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/internals/webpack/webpack.dll.babel.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/internals/webpack/webpack.base.babel.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/internals/scripts/npmcheckversion.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/store/configureStore.dev.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-demos/demo01/index.html",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/react/rmwc/package.json",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/store/configureStore.js",
@@ -623,7 +696,6 @@
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/store/configureStore.prod.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/package.json",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/src/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/shopping-cart/src/sagas/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/shopping-cart/src/services/products.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/shopping-cart/src/services/index.js",
@@ -633,14 +705,8 @@
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/shopping-cart/src/main.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/shopping-cart/src/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/shopping-cart/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/api/counter.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/server/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/server/server.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/counter/server.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/server.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-components-web/LICENSE",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/tree-view/package.json",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/Root.dev.js",
@@ -662,84 +728,11 @@
 		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/example/with-perf.html",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/react/styled-components/example/devServer.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-components-web/demos/button.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/package.json",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/client/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-dom/package.json",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/node_modules/react-router/package.json",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/server.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/config.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-website/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-redux/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-native/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-config/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-dom/docs/guides/server-rendering.md",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/posts.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/categories.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/comments.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/README.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/node_modules/react-router/docs/API.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/.gitignore",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/webpack.config.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/rollup.config.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router/docs/api/context.router.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/README.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/Root.prod.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/services/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/real-world/public/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/docs/introduction/CoreConcepts.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/docs/introduction/ThreePrinciples.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/dist/redux-saga.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/docs/Glossary.md",
-		"/C/Users/LIUJIAMING/AppData/Local/Temp/87.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/docs/api/README.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/services/api.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux/src/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/.git",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/npm-debug.log",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/README.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/more-function-be-added-to-arcade-game/frontend-nanodegree-arcade-game/index.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/index.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/css/style.css",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/prototype.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/MyReads-A-Book-Tracking-App/src/App.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/more-function-be-added-to-arcade-game/frontend-nanodegree-arcade-game/README.md",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/README.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/more-function-be-added-to-arcade-game/frontend-nanodegree-arcade-game/js/app.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/more-function-be-added-to-arcade-game/frontend-nanodegree-arcade-game/js/engine.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/frontend-nano/more-function-be-added-to-arcade-game/frontend-nanodegree-arcade-game/js/resources.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/js/engine.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/frontend-nanodegree-arcade-game/js/app.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/WIN_WORKSPACE/animation.sublime-project",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/snnipets.js",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/menu/css/demo-1.css",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/jsA/jquery3/jquery-3.2.1.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/mobileEvent/index.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/hybrid-native-react-arch-test/App.js",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/SyncSettings.sublime-settings",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
-		"/C/Users/LIUJIAMING/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/mobileEvent.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/score.js",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/src/score.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/build/score.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/.gitignore",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/menu/index3.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/menu/index2.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/menu/index.html",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/menu/css/default.css",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/.gitmodules",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/deviceOrientation-demo/garden.js",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/deviceOrientation-demo/garden.css",
-		"/C/Users/LIUJIAMING/Desktop/Works/2017-9-22/deviceOrientation-demo/garden.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/DomJquery/jqueryData.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/DomJquery/DomJquery.html",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/jsA/fasterTraining/mouse.html"
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/package.json"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -754,6 +747,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"react-simple",
+			"setup",
 			"react-boilerplate",
 			"hack",
 			"react-design",
@@ -820,111 +815,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/LIUJIAMING/Desktop/Workouts/.gitmodules",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13333,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10435,
-								10435
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3388.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
