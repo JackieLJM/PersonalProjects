@@ -147,3 +147,13 @@ function repeat(string,count){
 	}
 	return strings.join('');
 }
+
+// 输入参数返回一个由参数组成的数组
+function f() {
+  return Array.from(arguments);
+}
+
+f(1, 2, 3);
+
+// 生成由0，1，2，3，4组成的数组
+Array.from({length: 5}, (v, i) => i);
