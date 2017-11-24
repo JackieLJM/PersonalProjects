@@ -157,3 +157,15 @@ f(1, 2, 3);
 
 // 生成由0，1，2，3，4组成的数组
 Array.from({length: 5}, (v, i) => i);
+
+// 使用indexOf统计字符e出现次数
+var str = 'To be, or not to be, that is the question.';
+var count = 0;
+var pos = str.indexOf('e');
+
+while (pos !== -1) {
+  count++;
+  pos = str.indexOf('e', pos + 1);
+}
+
+console.log(count);
