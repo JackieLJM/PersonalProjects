@@ -49,6 +49,8 @@
 
 //***************** Node环境 ************************//
 // minimist模块
+require('babel-register');
 const args=require('minimist')(process.argv.slice(0,1));
 console.dir(args._);
 console.dir(args.env);
+console.dir(`${process.cwd()}`);
