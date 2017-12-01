@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"confi",
+				"configure"
+			],
+			[
+				"render",
+				"renderToString"
+			],
+			[
+				"fa",
+				"favicon"
+			],
+			[
 				"handle",
 				"handleRender"
 			],
@@ -38,10 +50,6 @@
 			[
 				"rem",
 				"removeEventListener\t( type: DOMString, callback: EventListener, capture?: boolean ): void EventTarget"
-			],
-			[
-				"fa",
-				"false"
 			],
 			[
 				"re",
@@ -448,25 +456,69 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "open",
+		"height": 380.0,
+		"last_filter": "ter",
 		"selected_items":
 		[
 			[
-				"open",
-				"File: Open In Browser - Testing Server"
+				"ter",
+				"Terminal: Open"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"up",
+				"Sync Settings: Upload"
+			],
+			[
+				"te",
+				"Terminal: Open in project folder"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"upload",
+				"Sync Settings: Upload"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"remo",
+				"Preferences: MarkdownLivePreview Settings"
 			],
 			[
 				"in",
 				"Package Control: Install Package"
 			],
 			[
-				"markdo",
-				"Markdown Preview: Preview in Browser"
+				"color",
+				"Package Control: Upgrade Package"
 			],
 			[
-				"ter",
-				"Terminal: Open in project folder"
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"open",
+				"Terminal: Open"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
 			],
 			[
 				"op",
@@ -493,10 +545,6 @@
 				"Sync Settings: Download"
 			],
 			[
-				"color",
-				"UI: Select Color Scheme"
-			],
-			[
 				"theme",
 				"UI: Select Theme"
 			],
@@ -509,20 +557,12 @@
 				"Package Control: Install Package"
 			],
 			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
 				"brow",
 				"Preferences: Browse Packages"
 			],
 			[
 				"li",
 				"Package Control: List Packages"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
 			],
 			[
 				"remove",
@@ -549,16 +589,8 @@
 				"File: Save All"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"canvas",
 				"Canvas Snippets: Open ChangeLog"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"for",
@@ -577,7 +609,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 600.0
+		"width": 552.0
 	},
 	"console":
 	{
@@ -598,27 +630,90 @@
 	},
 	"file_history":
 	[
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/server/server.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/api/counter.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/public/index.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/config.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/client/public/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/App.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/services/index.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/react-router-dom/index.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/react-router/node_modules/path-to-regexp/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-dom/docs/api/BrowserRouter.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/website/modules/docs/Web.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router-dom/docs/guides/server-rendering.md",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/client/src/App.js",
-		"/C/Users/LIUJIAMING/Desktop/index.html",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/client/src/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/book.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/logo/favicon/favicon.ico",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/client/node_modules/react-router/umd/react-router.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/Root.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/client/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/server/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/server/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/Root.dev.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/services/api.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/components/Explore.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/actions/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/UserPage.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/RepoPage.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/routes.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/components/User.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/components/Repo.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/components/List.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/react-router/es/Router.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/containers/Root.prod.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/store/configureStore.dev.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/store/configureStore.prod.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/test.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/src/index.css",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/src/actions/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/src/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/store/configureStore.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/comments.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/posts.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/build/index.html",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/.env",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/src/index.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/config.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/MyReads-A-Book-Tracking-App/src/utils/BooksAPI.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/src/utils/api.js",
+		"/C/Users/LIUJIAMING/Desktop/index.html",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/package.json",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/package.json",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/src/store/configureStore.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/react-router/Route.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/react-router/Router.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/react-router/StaticRouter.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/src/App.js",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/categories.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/server/server.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router/docs/api/match.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router/docs/api/StaticRouter.md",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/public/index.html",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/README.md",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/react/react-router/packages/react-router/docs/api/context.router.md",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/react-router/matchPath.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/react-router/README.md",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/react-scripts/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/package.json",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/MyReads-A-Book-Tracking-App/public/index.html",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/server/index.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/index.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/react-scripts/scripts/start.js",
+		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/webpack/package.json",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/api/counter.js",
+		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/client/public/index.html",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/public/favicon.ico",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/MyReads-A-Book-Tracking-App/public/404.html",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/index.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/package.json",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/node_modules/react-scripts/package.json",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/src/utils/api.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/client/src/components/post.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/client/src/components/navigation-bar.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/src/components/TodoList.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/src/types/todos.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/src/types/visibilityFilter.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/src/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/src/components/App.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/src/components/Footer.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/src/containers/AddTodo.js",
@@ -638,24 +733,19 @@
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/src/actions/todos.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/src/reducers/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/src/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/src/actions/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/src/reducers/index.js",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/MyReads-A-Book-Tracking-App/src/App.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/client/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/server/index.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/containers/App.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/components/Counter.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/webpack.config.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/node_modules/webpack-hot-middleware/client.js",
 		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/snnipets.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/package.json",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/public/favicon.ico",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/client/public/favicon.ico",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/public/favicon.ico",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/public/manifest.json",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/src/utils/helpers.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/reactnd-udacimeals-complete/package.json",
 		"/D/Program Files/Sublime Text 3/sublime_addright.txt",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/src/reducers/visibilityFilter.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-flow/src/reducers/todos.js",
@@ -667,69 +757,11 @@
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/app/containers/App/selectors.js",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-boilerplate/package.json",
 		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/sound-redux/client/src/index.jsx",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/sound-redux/client/webpack.prod.config.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos-with-undo/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todomvc/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/todos/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/sound-redux/client/webpack.dev.config.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/async/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/counter/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/shopping-cart/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/tree-view/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/sound-redux/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/sound-redux/README.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/reducers/counter.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/actions/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/common/reducers/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-starter-kit/package.json",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/src/App.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/src/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/client/src/reducers/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/docs/recipes/ServerRendering.md",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/server.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/examples/universal/.babelrc",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/src/store/configureStore.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/src/reducers/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux/docs/Glossary.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/docs/Glossary.md",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/posts.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/comments.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/visual/material-components-web/package.json",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/package.json",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/app/server/.gitignore",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/server.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/package.json",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/client/package.json",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/test/part/react.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/node_modules/react-dom/server.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/node_modules/react-dom/package.json",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/posts.js",
-		"/C/Users/LIUJIAMING/Desktop/PesonalProjects/Readable/server/config.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/material-ui/examples/create-react-app/src/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/material-ui/examples/create-react-app/src/styles/createContext.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/material-ui/examples/create-react-app/src/pages/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/material-ui/examples/create-react-app/src/components/withRoot.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/razzle-material-ui-styled-example/src/server.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/razzle-material-ui-styled-example/src/index.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/razzle-material-ui-styled-example/src/application/Main.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/razzle-material-ui-styled-example/src/client.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/udacity/react-nano/Project2/react-readable/server/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/razzle-material-ui-styled-example/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/material-ui/examples/create-react-app/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/material-ui/examples/create-react-app/node_modules/material-ui/styles/createGenerateClassName.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/material-ui/examples/create-react-app/node_modules/material-ui/package.json",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/material-ui/examples/create-react-app/node_modules/material-ui/styles/createGenerateClassName.d.ts",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/store/configureStore.dev.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/redux-saga/examples/real-world/store/configureStore.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/react-redux/docs/api.md",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/material-ui/examples/create-react-app-with-flow/flow/webpack.js",
-		"/C/Users/LIUJIAMING/Desktop/Workouts/react/material-ui/package.json"
+		"/C/Users/LIUJIAMING/Desktop/Workouts/isomorphic-react-redux/sound-redux/client/webpack.prod.config.js"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -744,6 +776,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"RouterContext",
+			"routercontext",
+			"(",
+			"handleChange",
+			"Explore",
+			"createRequestTypes",
 			"selectRecipe",
 			"addRecipe",
 			"removeFromCalendar",
@@ -821,7 +859,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -847,7 +885,7 @@
 		"cols":
 		[
 			0.0,
-			0.961240310078,
+			0.960063897764,
 			1.0
 		],
 		"rows":
@@ -868,7 +906,7 @@
 	"pinned_build_system": "",
 	"replace":
 	{
-		"height": 52.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -877,6 +915,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"package.json",
+				"Readable\\app\\package.json"
+			],
 			[
 				"score.html",
 				"src\\score.html"
@@ -913,7 +955,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 310.0,
+	"side_bar_width": 348.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

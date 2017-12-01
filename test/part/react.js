@@ -1,3 +1,7 @@
+import React from 'react';
+import {router,route} from 'react-router';
+import {render} from 'react-dom';
+
 // udacity 3-2-3
 /* Create A Reducer
  *
@@ -49,7 +53,6 @@ const data = [
 
 
 // HOC组件可以这样运用，将可替换组件作为形参传入container组件
-import React from 'react';
 import logo from '../logo.svg';
 const PageShell = Page => { 
   return props => {/* [1]*/}

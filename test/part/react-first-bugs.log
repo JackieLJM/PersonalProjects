@@ -1,0 +1,109 @@
+
+babel.min.js:12 You are using the in-browser Babel transformer. Be sure to precompile your scripts for production - https://babeljs.io/docs/setup/
+u	@	babel.min.js:12
+E	@	babel.min.js:1
+
+
+
+
+react-router.js:1485 Uncaught TypeError: Cannot read property 'pathname' of undefined
+    at new Router (react-router.js:1485)
+    at constructClassInstance (react-dom.development.js:6897)
+    at updateClassComponent (react-dom.development.js:8381)
+    at beginWork (react-dom.development.js:8767)
+    at performUnitOfWork (react-dom.development.js:10766)
+    at workLoop (react-dom.development.js:10830)
+    at HTMLUnknownElement.callCallback (react-dom.development.js:580)
+    at Object.invokeGuardedCallbackDev (react-dom.development.js:619)
+    at invokeGuardedCallback (react-dom.development.js:476)
+    at renderRoot (react-dom.development.js:10908)
+Router	@	react-router.js:1485
+constructClassInstance	@	react-dom.development.js:6897
+updateClassComponent	@	react-dom.development.js:8381
+beginWork	@	react-dom.development.js:8767
+performUnitOfWork	@	react-dom.development.js:10766
+workLoop	@	react-dom.development.js:10830
+callCallback	@	react-dom.development.js:580
+invokeGuardedCallbackDev	@	react-dom.development.js:619
+invokeGuardedCallback	@	react-dom.development.js:476
+renderRoot	@	react-dom.development.js:10908
+performWorkOnRoot	@	react-dom.development.js:11556
+performWork	@	react-dom.development.js:11509
+requestWork	@	react-dom.development.js:11420
+scheduleWorkImpl	@	react-dom.development.js:11274
+scheduleWork	@	react-dom.development.js:11231
+scheduleTopLevelUpdate	@	react-dom.development.js:11735
+updateContainer	@	react-dom.development.js:11773
+(anonymous)	@	react-dom.development.js:15900
+unbatchedUpdates	@	react-dom.development.js:11644
+renderSubtreeIntoContainer	@	react-dom.development.js:15899
+render	@	react-dom.development.js:15964
+(anonymous)	@	Inline Babel script:9
+n	@	babel.min.js:12
+r	@	babel.min.js:12
+o	@	babel.min.js:12
+u	@	babel.min.js:12
+E	@	babel.min.js:1
+
+
+
+react-dom.development.js:10289 The above error occurred in the <Router> component:
+    in Router
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://fb.me/react-error-boundaries to learn more about error boundaries.
+logCapturedError	@	react-dom.development.js:10289
+captureError	@	react-dom.development.js:11082
+renderRoot	@	react-dom.development.js:10933
+performWorkOnRoot	@	react-dom.development.js:11556
+performWork	@	react-dom.development.js:11509
+requestWork	@	react-dom.development.js:11420
+scheduleWorkImpl	@	react-dom.development.js:11274
+scheduleWork	@	react-dom.development.js:11231
+scheduleTopLevelUpdate	@	react-dom.development.js:11735
+updateContainer	@	react-dom.development.js:11773
+(anonymous)	@	react-dom.development.js:15900
+unbatchedUpdates	@	react-dom.development.js:11644
+renderSubtreeIntoContainer	@	react-dom.development.js:15899
+render	@	react-dom.development.js:15964
+(anonymous)	@	Inline Babel script:9
+n	@	babel.min.js:12
+r	@	babel.min.js:12
+o	@	babel.min.js:12
+u	@	babel.min.js:12
+E	@	babel.min.js:1
+
+
+
+
+react-dom.development.js:626 Uncaught Error: A cross-origin error was thrown. React doesn't have access to the actual error object in development. See https://fb.me/react-crossorigin-error for more information.
+    at Object.invokeGuardedCallbackDev (react-dom.development.js:626)
+    at invokeGuardedCallback (react-dom.development.js:476)
+    at renderRoot (react-dom.development.js:10908)
+    at performWorkOnRoot (react-dom.development.js:11556)
+    at performWork (react-dom.development.js:11509)
+    at requestWork (react-dom.development.js:11420)
+    at scheduleWorkImpl (react-dom.development.js:11274)
+    at scheduleWork (react-dom.development.js:11231)
+    at scheduleTopLevelUpdate (react-dom.development.js:11735)
+    at Object.updateContainer (react-dom.development.js:11773)
+invokeGuardedCallbackDev	@	react-dom.development.js:626
+invokeGuardedCallback	@	react-dom.development.js:476
+renderRoot	@	react-dom.development.js:10908
+performWorkOnRoot	@	react-dom.development.js:11556
+performWork	@	react-dom.development.js:11509
+requestWork	@	react-dom.development.js:11420
+scheduleWorkImpl	@	react-dom.development.js:11274
+scheduleWork	@	react-dom.development.js:11231
+scheduleTopLevelUpdate	@	react-dom.development.js:11735
+updateContainer	@	react-dom.development.js:11773
+(anonymous)	@	react-dom.development.js:15900
+unbatchedUpdates	@	react-dom.development.js:11644
+renderSubtreeIntoContainer	@	react-dom.development.js:15899
+render	@	react-dom.development.js:15964
+(anonymous)	@	Inline Babel script:9
+n	@	babel.min.js:12
+r	@	babel.min.js:12
+o	@	babel.min.js:12
+u	@	babel.min.js:12
+E	@	babel.min.js:1

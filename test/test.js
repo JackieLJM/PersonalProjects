@@ -49,8 +49,30 @@
 
 //***************** Node环境 ************************//
 // minimist模块
-require('babel-register');
-const args=require('minimist')(process.argv.slice(0,1));
-console.dir(args._);
-console.dir(args.env);
-console.dir(`${process.cwd()}`);
+// require('babel-register');
+// const args=require('minimist')(process.argv.slice(0,1));
+// console.dir(args._);
+// console.dir(args.env);
+// console.dir(`${process.cwd()}`);
+
+
+//***************** yunwuyue ************************//
+// var wuyue = "http://dev.yunwuyue.cn:1000/MarkService/login";
+// var fetch = require('node-fetch');
+// fetch(wuyue, {
+//         method: "post",
+//         headers: {
+//             "projectid": "20170901135018785",
+//             "nodeurl": "http://nodetest.yunwuyue.cn:100/cloudproject",
+//             "version": "1.0",
+//             // 'Content-Type': 'application/json',   
+//         },
+//         body: {
+//             "teacherid": "01001003",
+//             "password": "01001003",
+//             "yzm": "9527",
+//         }
+//     })
+//     .then(res => console.log(res));
+// .then(res=>res.json())
+// .then(data=>console.log(data));
