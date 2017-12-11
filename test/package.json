@@ -4,17 +4,15 @@
   "description": "",
   "main": "test.js",
   "babel": {
-    "presets": [
-      [
-        "env",
-        {
-          "targets": {
-            "node": "current"
-          }
+    "preset": [
+      ["env", {
+        "targets": {
+          "node": "current"
         }
-      ],
+      }],
       "react"
-    ]
+    ],
+    "plugins": ["transform-object-rest-spread"]
   },
   "dependencies": {
     "babel-register": "^6.26.0",
