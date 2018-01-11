@@ -649,7 +649,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -679,7 +679,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -715,7 +715,7 @@
 	"pinned_build_system": "",
 	"replace":
 	{
-		"height": 44.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
