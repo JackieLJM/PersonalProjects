@@ -169,3 +169,37 @@ while (pos !== -1) {
 }
 
 console.log(count);
+
+//用lodash工具函数转换weak性质数据结构为带有forEach方法的对象
+import lodashForEach from 'lodash/forEach';
+import entries from 'lodash/entries';
+/**
+ * @since lodash@4.17.3
+ * @param {Array|Map|Object|Set|WeakMap|WeakSet} iterable
+ * @param {Function} iteratee
+ * @example
+ * const iterable = new Map();
+ * iterable.set('somekey1', 1);
+ * iterable.set('somekey2', 2);
+ * // or
+ * const iterable = new Set();
+ * iterable.add("entry1");
+ * iterable.add("entry2");
+ * // run function
+ * forEach(iterable, (value, key) => {
+ *   console.group('-');
+ *   console.info('KEY');
+ *   console.log(key);
+ *   console.info('VALUE');
+ *   console.log(value);
+ *   console.groupEnd();
+ * });
+ */
+function forEach(iterable, iteratee) {
+    lodashForEach((iterable instanceof Set || iterable instanceof WeakSet) ? Array.from(iterable) : entries(iterable), (entry, index, collection) => {
+      iteratee(entry[1], entry[0], collection, index);
+    });
+    return iterable;
+}
+
+export default forEach;
