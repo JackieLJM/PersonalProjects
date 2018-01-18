@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../../THESINGLEFILEFORREFER/bootstrap.min-4.0-beta.3-lccu.css">
+</head>
+
+<body>
+	<div id="bg" class="bg-primary">
+	<article>
+		<section>
+			<div class="bg-light">
+				<input id="next" type="button" name="Next">
+			</div>
+		</section>
+		<footer></footer>
+	</article>
+	</div>
+	<script src="../../THESINGLEFILEFORREFER/jquery-3.2.1.min.js"></script>
+	<script src="../../THESINGLEFILEFORREFER/popper-1.12.9.min.js"></script>
+	<script src="../../THESINGLEFILEFORREFER/bootstrap.min-4.0-beta.3.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#next").onClick(function(){
+				$.post('https://andruxnet-random-famous-quotes.p.mashape.com/?cat=movie', {X-Mashape-Key: 'value1'}, function(data, textStatus, xhr) {
+					/*optional stuff to do after success */
+					var color=['.bg-light','.bg-primary','.bg-secondary','.bg-success','.bg-danger','.bg-info','.bg-dark','.bg-white'];
+					var random=Math.floor(Math.random()*8);
+					$("#bg").removeClass();
+					$("#bg").addClass(color[random]);
+				});
+				
+			})
+		});
+	</script>
+</body>
+</html>
