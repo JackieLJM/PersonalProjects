@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="../../THESINGLEFILEFORREFER/bootstrap.min-4.0-beta.3-lccu.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../../THESINGLEFILEFORREFER/bootstrap.min-4.0-beta.3-lccu.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">  -->
 </head>
 
 <body>
-	<div id="bg" class="bg-primary">
-	<article>
-		<section>
-			<div class="bg-light">
-				<input id="next" type="button" name="Next">
-			</div>
-		</section>
-		<footer></footer>
-	</article>
-	</div>
-	<script src="../../THESINGLEFILEFORREFER/jquery-3.2.1.min.js"></script>
+    <div id="bg" class="container-fluid bg-dark">
+        <article>
+            <section>
+                <div id="quote" class="bg-light mx-auto  text-gray-dark w-50">
+					<q class="blockquote"></q>
+                    <input class="btn btn-outline-secondary" id="next" type="button" value="Next"/>
+                </div>
+            </section>
+            <footer></footer>
+        </article>
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> -->
+    <script src="../../THESINGLEFILEFORREFER/jquery-3.2.1.min.js"></script>
 	<script src="../../THESINGLEFILEFORREFER/popper-1.12.9.min.js"></script>
 	<script src="../../THESINGLEFILEFORREFER/bootstrap.min-4.0-beta.3.js"></script>
-	<script>
-		$(document).ready(function() {
-			$("#next").onClick(function(){
-				$.post('https://andruxnet-random-famous-quotes.p.mashape.com/?cat=movie', {X-Mashape-Key: 'value1'}, function(data, textStatus, xhr) {
-					/*optional stuff to do after success */
-					var color=['.bg-light','.bg-primary','.bg-secondary','.bg-success','.bg-danger','.bg-info','.bg-dark','.bg-white'];
-					var random=Math.floor(Math.random()*8);
-					$("#bg").removeClass();
-					$("#bg").addClass(color[random]);
-				});
-				
-			})
-		});
-	</script>
+    <script>
+    $(document).ready(function() {
+        $("#next").onClick(function() {
+            $.ajax({type:"post",url:'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=movie', headers:{ X-Mashape-Key: 'value1' },success:function(data, textStatus, xhr) {
+                /*optional stuff to do after success */
+
+                var color = ['.bg-light', '.bg-primary', '.bg-secondary', '.bg-success', '.bg-danger', '.bg-info', '.bg-dark', '.bg-white'];
+                var random = Math.floor(Math.random() * color.length);
+                $("#bg").removeClass();
+                $("#bg").addClass(color[random]);
+            });
+
+        })
+    });
+    </script>
 </body>
+
 </html>
