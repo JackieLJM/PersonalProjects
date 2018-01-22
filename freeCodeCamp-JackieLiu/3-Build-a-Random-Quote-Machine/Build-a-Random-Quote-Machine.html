@@ -6,40 +6,188 @@
     <title>Document</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../../THESINGLEFILEFORREFER/bootstrap.min-4.0-beta.3-lccu.css">
+    <link rel="stylesheet" type="text/css" href="../../THESINGLEFILEFORREFER/jquery-ui.min-1.12.1.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">  -->
+    <style>
+    /*使用绝对定位布局*/
+    body {
+        transition: opacity 1s;
+    }
+
+    .solid {
+        opacity: 1;
+    }
+
+    .transparent {
+        opacity: 0;
+    }
+
+    div {
+        /*vertical-align: middle;*/
+        height: 50%;
+        line-height: 50%;
+        left: 25%;
+        top: 25%;
+        position: absolute;
+        /*float: none;
+    	display: inline-block;
+    	vertical-align: middle;*/
+    }
+
+    blockquote {
+        line-height: 1.5rem;
+    }
+
+    .author {
+        line-height: 1.5rem;
+        top: 55%;
+        left: 70%;
+        width: 20%;
+        position: absolute;
+        /*margin:10rem;*/
+    }
+
+    div .q {
+        margin-top: -3rem;
+    }
+
+    a {
+        top: 75%;
+        left: 71%;
+        width: 20%;
+        position: absolute;
+    }
+    </style>
 </head>
 
 <body>
-    <div id="bg" class="container-fluid bg-dark">
-        <article>
-            <section>
-                <div id="quote" class="bg-light mx-auto  text-gray-dark w-50">
-					<q class="blockquote"></q>
-                    <input class="btn btn-outline-secondary" id="next" type="button" value="Next"/>
+    <!-- <div id="bg" class="container-fluid bg-dark"> -->
+    <article>
+        <section>
+            <div id="quote" class="rounded border border-dark bg-light m-auto text-gray-dark w-50">
+                <div class="w-50 q">
+                    <blockquote class="blockquote m-auto">Welcome to check the Quote.</blockquote>
                 </div>
-            </section>
-            <footer></footer>
-        </article>
-    </div>
+                <!-- <div> -->
+                <a id="tweet" href="">tweet it.</a>
+                <span class="author"></span>
+                <!-- </div> -->
+                <div class="mt-5">
+                    <div class="mt-5">
+                        <input class="btn btn-outline-secondary mt-5" id="next" type="button" value="Next Quote" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer></footer>
+    </article>
+    <!-- </div> -->
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> -->
     <script src="../../THESINGLEFILEFORREFER/jquery-3.2.1.min.js"></script>
-	<script src="../../THESINGLEFILEFORREFER/popper-1.12.9.min.js"></script>
-	<script src="../../THESINGLEFILEFORREFER/bootstrap.min-4.0-beta.3.js"></script>
+    <script src="../../THESINGLEFILEFORREFER/popper-1.12.9.min.js"></script>
+    <script src="../../THESINGLEFILEFORREFER/bootstrap.min-4.0-beta.3.js"></script>
+    <script src="../../THESINGLEFILEFORREFER/jquery-ui.min-1.12.1.js"></script>
     <script>
+    // $(document).ready(function() {
+    // // body...
+    // var color = ['bg-primary', 'bg-secondary', 'bg-success', 'bg-danger', 'bg-info'];
+
+    // $("#next").click(function() {
+    // 	var random = Math.floor(Math.random() * color.length);
+    //     if (Window.count === undefined) {
+    //         $("body").addClass(color[random], 1000);
+    //     } else if (typeof Window.count === "number") {
+    //         $("body").switchClass(color[Window.count], color[random], 1000, "easeInOutQuad")
+    //     }
+    //     Window.count = random;
+    //     console.log(Window.count);
+    // }
+    // )});
+
+    //  jQuery(function(){})或$(function(){}) 是 $(document).ready(function(){}) 的简写
+
+
+
+
+
+
+
+
+
+
     $(document).ready(function() {
-        $("#next").onClick(function() {
-            $.ajax({type:"post",url:'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=movie', headers:{ X-Mashape-Key: 'value1' },success:function(data, textStatus, xhr) {
-                /*optional stuff to do after success */
 
-                var color = ['.bg-light', '.bg-primary', '.bg-secondary', '.bg-success', '.bg-danger', '.bg-info', '.bg-dark', '.bg-white'];
-                var random = Math.floor(Math.random() * color.length);
-                $("#bg").removeClass();
-                $("#bg").addClass(color[random]);
+        function inIframe() { try { return window.self !== window.top; } catch (e) { return true; } }
+
+        function openURL(url) {
+            window.open(url, 'Share', 'width=550, height=400, toolbar=0, scrollbars=1 ,location=0 ,statusbar=0,menubar=0, resizable=0');
+        }
+        $("#next").click(function() {
+            // var count;
+            $.ajax({
+                type: "post",
+                url: 'https://andruxnet-random-famous-quotes.p.mashape.com/?cat=movie',
+                headers: { 'X-Mashape-Key': '2J65y5cDgqmshCMAoSXTO8c75cbgp1VV8D1jsnLprkaw9feEhk', 'Content-Type': 'application/x-www-form-urlencoded', 'Accept': 'application/json' },
+                success: function(data, textStatus, xhr) {
+                    /*optional stuff to do after success */
+                    console.log(data);
+                    console.log(textStatus);
+                    console.log(xhr);
+                    var json = $.parseJSON(data);
+                    // console.log(json["quote"]);
+                    $("blockquote").text(json["quote"]);
+                    $(".author").text("- " + json["author"]);
+                    var color = ['bg-primary', 'bg-secondary', 'bg-success', 'bg-danger', 'bg-info'];
+                    var random = Math.floor(Math.random() * color.length);
+                    if (typeof window.count === "number") {
+                        while (window.count === random) {
+                            random = Math.floor(Math.random() * color.length);
+                        }
+                    }
+                    console.log(window.count);
+                    // var i=1;
+                    // (function(i){
+                    // 	console.log(i);
+                    // 	return i++;
+                    // })(i);
+                    // console.log(count);
+                    // (function(random) {
+                    if (window.count === undefined) {
+                        $("body").addClass(color[random], 1000);
+                    } else if (typeof window.count === "number") {
+                        $("body").removeClass(color[window.count]);
+                        $("body").addClass(color[random], 1000)
+                        // $("body").removeClass(color[window.count]);
+                        // $("body").switchClass(color[window.count], color[random], 2000, "linear")没有起到颜色转化的效果,应该使用animate转化色素值
+                    }
+                    window.count = random;
+                    console.log(window.count);
+                    // if (inIframe()) {
+                    $('#tweet').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + json["quote"] + '" ' + json["author"]));
+                    // }
+
+                    // })(random);
+                    // console.log(count);
+
+                    // return prev;
+                    // $("body").removeClass();
+                    // $("body").animate({
+                    // 	opacity :"show" },
+                    // 	500, function() {
+                    // 	/* stuff to do after animation is complete */
+                    // 	$("body").addClass(color[random]);
+                    // });
+                }
             });
+        });
+        // $("#tweet").click(function() {
+        //     if (!inIframe()) {
+        //         openURL('https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + json["quote"] + '" ' + json["author"]));
+        //     }
+        // })
 
-        })
     });
     </script>
 </body>
