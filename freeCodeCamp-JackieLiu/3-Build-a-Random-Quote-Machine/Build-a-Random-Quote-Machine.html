@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../../THESINGLEFILEFORREFER/jquery-ui.min-1.12.1.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">  -->
     <style>
-    /*使用绝对定位布局*/
+    /*1-----------------使用绝对定位布局无法做到组件之间相适应*/
     body {
         transition: opacity 1s;
     }
@@ -119,11 +119,11 @@
 
     $(document).ready(function() {
 
-        function inIframe() { try { return window.self !== window.top; } catch (e) { return true; } }
+        // function inIframe() { try { return window.self !== window.top; } catch (e) { return true; } }
 
-        function openURL(url) {
-            window.open(url, 'Share', 'width=550, height=400, toolbar=0, scrollbars=1 ,location=0 ,statusbar=0,menubar=0, resizable=0');
-        }
+        // function openURL(url) {
+            // window.open(url, 'Share', 'width=550, height=400, toolbar=0, scrollbars=1 ,location=0 ,statusbar=0,menubar=0, resizable=0');
+        // }
         $("#next").click(function() {
             // var count;
             $.ajax({
@@ -160,11 +160,13 @@
                         $("body").removeClass(color[window.count]);
                         $("body").addClass(color[random], 1000)
                         // $("body").removeClass(color[window.count]);
-                        // $("body").switchClass(color[window.count], color[random], 2000, "linear")没有起到颜色转化的效果,应该使用animate转化色素值
+                        // $("body").switchClass(color[window.count], color[random], 2000, "linear")
+                        /*2-------------------使用jquery ui class方法没有起到颜色转化的效果,应该使用animate转化色素值*/
                     }
                     window.count = random;
                     console.log(window.count);
                     // if (inIframe()) {
+                    	/*3-------------------在iframe打开页面*/
                     $('#tweet').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + json["quote"] + '" ' + json["author"]));
                     // }
 
