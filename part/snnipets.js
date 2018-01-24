@@ -63,6 +63,7 @@ function deepCopy(parent, child) {
 }
 
 // shallow clone
+// 1:
 function shallowClone(source) {
     if (!source && typeof source !== 'object') {
         throw new Error('error arguments');
@@ -77,6 +78,8 @@ function shallowClone(source) {
     }
     return targetObj;
 }
+// 2:
+var shallowCopy = fruits.slice();
 
 // bind方法
 if (!Function.prototype.bind) {

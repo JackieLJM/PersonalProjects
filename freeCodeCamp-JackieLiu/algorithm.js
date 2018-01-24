@@ -85,7 +85,6 @@
 
 
 
-
 // function getIndexToIns(arr, num) {
 //   // Find my place in this sorted array.
 //   var index=num;
@@ -95,9 +94,28 @@
 //   num=arr.indexOf(index);
 //   return num;
 // }
-
 // console.log(getIndexToIns([5, 3, 20, 3], 5));
 
 
 
-console.log("ABCDEFGHIJKLMNOPQRSTUVWXYZ".charCodeAt(13));
+// console.log("ABCDEFGHIJKLMNOPQRSTUVWXYZ".charCodeAt(13));
+
+
+
+// function diffArray(arr1, arr2) {
+//   // Same, same; but different.
+//   var a=arr1.filter(v=>!arr2.includes(v));
+//   console.log(a);
+//   var b=arr2.filter(v=>!arr1.includes(v));
+//   console.log(b);
+//   //过滤出数组1内不等于数组2内的元素  
+//   return a.concat(b);
+// }
+// diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
+// var fruits=["Apple", "Banana"];
+// var first = fruits.shift();
+// console.log(first,fruits);
+// unshift push是增加 pop shit是减少
+// if(Math.floor(500/1000)){
+// 	console.log(1);
+// }
