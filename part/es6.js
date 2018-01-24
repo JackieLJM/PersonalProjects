@@ -30,3 +30,7 @@ const number=2;
 const logArg=(...args)=>console.log(...args);
 logArg`I am superman with ${number} ${fish}`;
 logArg`I am Benjamin ${()=>console.log('text')}`;
+
+
+// 用es6实现一个斐波那契数列
+const fibonacci=n=>Array(n).fill(0).reduce((acc,val,i)=>acc.concat(i>1?acc[i-1]+acc[i-2]:i),[]);
