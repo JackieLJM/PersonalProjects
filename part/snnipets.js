@@ -42,6 +42,7 @@ window.requestAnimFrame = (function(){
 }());
 
 // deep clone
+// 1:
 function deepCopy(parent, child) {
     var i,
         toStr = Object.prototype.toString,
@@ -61,6 +62,8 @@ function deepCopy(parent, child) {
     }
     return child;
 }
+//2:
+let obj3 = JSON.parse(JSON.stringify(obj1))
 
 // shallow clone
 // 1:
@@ -207,6 +210,24 @@ function forEach(iterable, iteratee) {
 
 export default forEach;
 
-
-
+// 给对象添加遍历器
+let obj = {
+    data: [ 'hello', 'world' ],
+    [Symbol.iterator]() {
+        const self = this;
+        let index = 0;
+        return {
+            next() {
+                if (index < self.data.length) {
+                    return {
+                        value: self.data[index++],
+                        done: false
+                    };
+                } else {
+                    return { value: undefined, done: true };
+                }
+            }
+        };
+    }
+};
 

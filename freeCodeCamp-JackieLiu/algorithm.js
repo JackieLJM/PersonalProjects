@@ -119,3 +119,22 @@
 // if(Math.floor(500/1000)){
 // 	console.log(1);
 // }
+
+
+
+// function myReplace(str, before, after) {
+// 	// console.log('A'.search(/[A-Z]/)!==-1)
+//   if(before[0].search(/[A-Z]/)!==-1){
+//   	console.log(after[0].toUpperCase());
+//     var a=after.replace(after[0],after[0].toUpperCase());
+//     	return str.replace(before,a);
+//   }
+//   return str.replace(before,after);
+// }
+// console.log(myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped"));
+// console.log(myReplace("He is Sleeping on the couch", "Sleeping", "sitting"));
+// var str = 'For more information, see Chapter 3.4.5.1';
+// var re = /see (chapter \d+(\.\d)*)/i;
+// var found = str.match(re);
+// console.log(found);
+// //match返回数组
