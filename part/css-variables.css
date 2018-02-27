@@ -1,0 +1,23 @@
+/*运用css-variables少写响应式代码*/
+
+:root {
+  --width: 25%;
+  --margin: 20px;
+}
+@media (max-width: 400px) {
+  :root {
+    --width: 50%;
+    --margin: 10px;
+  }
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+div {
+  flex: 1;
+  height: 220px;
+  flex-basis: calc(var(--width) - (var(--margin) * 3));
+  background: #ccc;
+  margin: var(--margin);
+}
