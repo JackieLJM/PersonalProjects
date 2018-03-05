@@ -32,22 +32,22 @@ fetchJsonp("https://wind-bow.gomix.me/twitch-api/users/react", { jsonpCallback: 
 })
 
 //状态切换显示，同时更改状态数据ui组件
-$(document).ready(function() {
-    $(".selector").click(function() {
-        $(".selector").removeClass("active");
-        $(this).addClass("active");
-        var status = $(this).attr('id');
-        if (status === "all") {
-            $(".online, .offline").removeClass("hidden");
-        } else if (status === "online") {
-            $(".online").removeClass("hidden");
-            $(".offline").addClass("hidden");
-        } else {
-            $(".offline").removeClass("hidden");
-            $(".online").addClass("hidden");
-        }
-    })
-});
+// $(document).ready(function() {
+//     $(".selector").click(function() {
+//         $(".selector").removeClass("active");
+//         $(this).addClass("active");
+//         var status = $(this).attr('id');
+//         if (status === "all") {
+//             $(".online, .offline").removeClass("hidden");
+//         } else if (status === "online") {
+//             $(".online").removeClass("hidden");
+//             $(".offline").addClass("hidden");
+//         } else {
+//             $(".offline").removeClass("hidden");
+//             $(".online").addClass("hidden");
+//         }
+//     })
+// });
 //项目采用第3种选择
 
 //---------6-project----------//
@@ -79,11 +79,17 @@ const wikiUsers = ['AdmiralBulldog', 'Amaz', 'Aphromoo', 'Pavel Beltiukov', 'Bio
     'T-Pain',
     'Trump',
     'Meg Turney'
-]
+];
+const freecodecampUsers=["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"];
 
 const url="https://wind-bow.gomix.me/twitch-api/channels/";
+// const fetchData=(dataUser,id)=>(fetchJsonp(url+dataUser).then(response=>response.json()).then(user=>$(id).append(`<li>${user}</li>`));
 
-// const dataUsers=wikiUsers.map(dataUser=>(fetchJsonp(url+user).then(response=>response.json()).then(user=>))
+// const allDataUsers=wikiUsers.map(dataUser=>(fetchData(dataUser,'#all')));
+
+
+
+
 },{"fetch-jsonp":2}],2:[function(require,module,exports){
 (function (global, factory) {
   if (typeof define === 'function' && define.amd) {
