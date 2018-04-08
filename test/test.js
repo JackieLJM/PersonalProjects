@@ -76,3 +76,16 @@
 //     .then(res => console.log(res));
 // .then(res=>res.json())
 // .then(data=>console.log(data));
+
+
+// 语法活用扫盲debug
+// var x = new String('Hello world');
+// var i = 5;
+// var s = "asdasdfasfa";
+// for (; i < s.length; ++i) {
+//     console.log(i);
+// }
+var sb = '';
+var sb = sb.concat(1);
+// concat后应该赋给新值
+console.log(sb);
