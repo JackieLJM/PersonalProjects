@@ -78,14 +78,39 @@
 // .then(data=>console.log(data));
 
 
-// 语法活用扫盲debug
+//*************** 语法活用扫盲debug ******************//
 // var x = new String('Hello world');
-// var i = 5;
-// var s = "asdasdfasfa";
-// for (; i < s.length; ++i) {
-//     console.log(i);
-// }
-var sb = '';
-var sb = sb.concat(1);
-// concat后应该赋给新值
-console.log(sb);
+// x不是一个字符串
+
+var i = 5;
+var s = "asdasdfasfa";
+for ( ;i < s.length; ) {
+    // ++i;   打印出6,7,8,9,10
+    console.log(i);
+    ++i;
+}
+
+// var sb = '';
+// var sb = sb.concat(1);
+// // concat后应该赋给新值
+// console.log(sb);
+
+var 
+// a=2.123124;
+a=-2;
+// ~a;
+console.log(~a);//1
+// ~~可以去掉小数,同parseInt()函数同作用
+
+var abc=['131231','31231','jhgfaf'];
+var abcd= abc.reduce((pre,cur)=>{return Math.min(pre,cur.length)},1);
+// 这里第一次比较就是用1和cur比较，这里的pre就是1，第二次pre的值就是返回的math.min得出的值
+// reduce也是不改变原值的方法
+// reduce适合于操作两个数组或两个对象间的复杂数据，能高杠的使用reduce，代码会变得很出色
+// reduce函数的第二个参数可以视为一个新的对象
+// 如果没有提供initialValue，reduce 会从索引1的地方开始执行 callback 方法，跳过第一个索引。如果提供initialValue，从索引0开始。
+// 没有返回值不能进行链式操作，这是常识
+// reduce方法的初始值是什么很重要，关键到一个初始值是什么决定了算法是否能实现，关系到逻辑思维是否能够很好的写出来
+console.log(abcd);
+
+// console.log("ABCDEFGHIJKLMNOPQRSTUVWXYZ".charCodeAt(13));

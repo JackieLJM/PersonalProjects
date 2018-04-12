@@ -98,10 +98,6 @@
 
 
 
-// console.log("ABCDEFGHIJKLMNOPQRSTUVWXYZ".charCodeAt(13));
-
-
-
 // function diffArray(arr1, arr2) {
 //   // Same, same; but different.
 //   var a=arr1.filter(v=>!arr2.includes(v));
@@ -138,3 +134,66 @@
 // var found = str.match(re);
 // console.log(found);
 // //match返回数组
+
+
+
+// function translatePigLatin(str) {
+//   var strArr=str.split('');
+//   var i=0;
+//   while(strArr[i]!='a'&&strArr[i]!='e'&&strArr[i]!='i'&&strArr[i]!='o'&&str[i]!='u'){
+//     i++;
+//   }
+//   var suff = str.substr(i);
+//   var pre = str.substr(0,i);
+//   str=suff+pre;
+//   if(i==0){
+//     str+='way';
+//   }else{
+//     str+='ay';
+//   }
+//   return str;
+// }
+
+// console.log(translatePigLatin("consonant"));
+
+
+
+// DNA pairing
+// 转成数组操作，低效
+// function pairElement(str) {
+//   var strArr=str.split();
+//   var pair=[["A","T"],["C","G"]];
+//   for(let i=0;i<strArr.length;i=i+2){
+//     if(strArr[i]!==strArr[i+1]){
+//       if((strArr[i] in pair[1]&&strArr[i+1] in pair[1])||(strArr[i] in pair[2]&&strArr[i+1] in pair[2]){  
+//         continue;
+//       }else{
+//         strArr[i] in pair[1]?strA
+//     }
+      
+//     }
+//   }
+// //   strArr.reduce((pre,cur)=>{
+// //   });
+// //   return str;
+// }
+function pairElement(str) {
+  var arr=[];
+  var pair=[["A","T"],["C","G"]];
+  for(var i=0;i<str.length;i=i+2){
+  	// console.log(typeof str[i+1].length);
+  	// console.log(str[i+1]!==undefined?str[i+1]:'');
+    arr.push(str[i]+(str[i+1]!==undefined?str[i+1]:''));
+  }
+  arr.forEach((item)=>{
+  	return 
+  		if((item[0] in pair[1]&&item[1] in pair[1])||(item[0] in pair[2]&&item[1] in pair[2])){
+
+  		}
+  })
+  return arr;
+  // return str;
+}
+
+console.log(pairElement("GCG"));
+// console.log('obj'.length==2?'a':'');

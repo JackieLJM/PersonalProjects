@@ -245,3 +245,32 @@ function comma(strings, ...values) {
     return prev + next + value;
   }, "");
 }
+
+
+//高阶reduce callback函数使用
+var manageReducers = function(reducers) {
+  return function(state, item) {
+    return Object.keys(reducers).reduce(
+      function(nextState, key) {
+        reducers[key](state, item);
+        return state;
+      },
+      {}
+    );
+  }
+};
+
+// 数组去重，这里用到了新的数组，增加了空间复杂度
+let arr = [1,2,1,2,3,5,4,5,3,4,4,4,4];
+let result = arr.sort().reduce((init, current)=>{
+    if(init.length===0 || init[init.length-1]!==current){
+        init.push(current);
+    }
+    return init;
+}, []);
+// 计算每个字母出现次数，先转数组再用reduce
+var arrString = 'abcdaabc';
+arrString.split('').reduce(function(res, cur) {
+    res[cur] ? res[cur] ++ : res[cur] = 1
+    return res;
+}, {})
