@@ -178,22 +178,36 @@
 // //   return str;
 // }
 function pairElement(str) {
-  var arr=[];
+  var arr=[],newArr=[],pairArr=[];
   var pair=[["A","T"],["C","G"]];
-  for(var i=0;i<str.length;i=i+2){
+
+  for(var i=0;i<str.length;i=i+1){
   	// console.log(typeof str[i+1].length);
   	// console.log(str[i+1]!==undefined?str[i+1]:'');
     arr.push(str[i]+(str[i+1]!==undefined?str[i+1]:''));
   }
-  arr.forEach((item)=>{
-  	return 
-  		if((item[0] in pair[1]&&item[1] in pair[1])||(item[0] in pair[2]&&item[1] in pair[2])){
-
+  arr.forEach(function(item){
+  		if(item[0]==item[1]){
+  			newArr.push(item[0]);
+  			newArr.push(item[1]);
+  		}
+  		else if((item[0] in pair[0]&&item[1] in pair[1])||(item[0] in pair[1]&&item[1] in pair[0])){
+  			newArr.push(item[0]);
+  			newArr.push(item[1]);
+  		}
+  		else{
+  			newArr.push(item);
   		}
   })
-  return arr;
+  newArr.for((item)=>{
+  	if(item.length===2){
+  		item.split()
+  	}
+  })
+  return pairArr;
   // return str;
 }
 
 console.log(pairElement("GCG"));
+console.log(pairElement("GCGGATTTAAGCGGATTTAAAGGAT"));
 // console.log('obj'.length==2?'a':'');
