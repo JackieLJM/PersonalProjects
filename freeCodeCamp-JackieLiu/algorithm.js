@@ -113,17 +113,17 @@
 // console.log(first,fruits);
 // unshift push是增加 pop shit是减少
 // if(Math.floor(500/1000)){
-// 	console.log(1);
+//  console.log(1);
 // }
 
 
 
 // function myReplace(str, before, after) {
-// 	// console.log('A'.search(/[A-Z]/)!==-1)
+//  // console.log('A'.search(/[A-Z]/)!==-1)
 //   if(before[0].search(/[A-Z]/)!==-1){
-//   	console.log(after[0].toUpperCase());
+//    console.log(after[0].toUpperCase());
 //     var a=after.replace(after[0],after[0].toUpperCase());
-//     	return str.replace(before,a);
+//      return str.replace(before,a);
 //   }
 //   return str.replace(before,after);
 // }
@@ -159,7 +159,7 @@
 
 
 // DNA pairing
-// 转成数组操作，低效
+// *************转成数组操作，低效*****************//
 // function pairElement(str) {
 //   var strArr=str.split();
 //   var pair=[["A","T"],["C","G"]];
@@ -170,44 +170,132 @@
 //       }else{
 //         strArr[i] in pair[1]?strA
 //     }
-      
+
 //     }
 //   }
 // //   strArr.reduce((pre,cur)=>{
 // //   });
 // //   return str;
 // }
-function pairElement(str) {
-  var arr=[],newArr=[],pairArr=[];
-  var pair=[["A","T"],["C","G"]];
+// *************把题目理解高深了，变成下面的解法*****************//
+// function pairElement(str) {
+//   var arr=[],newArr=[],pairArr=[];
+//   var pair=[["A","T"],["C","G"]];
 
-  for(var i=0;i<str.length;i=i+1){
-  	// console.log(typeof str[i+1].length);
-  	// console.log(str[i+1]!==undefined?str[i+1]:'');
-    arr.push(str[i]+(str[i+1]!==undefined?str[i+1]:''));
-  }
-  arr.forEach(function(item){
-  		if(item[0]==item[1]){
-  			newArr.push(item[0]);
-  			newArr.push(item[1]);
-  		}
-  		else if((item[0] in pair[0]&&item[1] in pair[1])||(item[0] in pair[1]&&item[1] in pair[0])){
-  			newArr.push(item[0]);
-  			newArr.push(item[1]);
-  		}
-  		else{
-  			newArr.push(item);
-  		}
-  })
-  newArr.for((item)=>{
-  	if(item.length===2){
-  		item.split()
-  	}
-  })
-  return pairArr;
-  // return str;
+//   for(var i=0;i<str.length;i=i+2){
+//    // console.log(typeof str[i+1].length);
+//    // console.log(str[i+1]!==undefined?str[i+1]:'');
+//     // console.log(i);
+//     // 把字符串按两个两个划分成数组
+//     arr.push(str[i]+(str[i+1]!==undefined?str[i+1]:''));
+//   }
+//   arr.forEach(function(item){
+//     // 把不是碱基对的再单独划分出来存入新数组
+//      if(item[0]==item[1]){
+//        newArr.push(item[0]);
+//        newArr.push(item[1]);
+//      }
+//      else if((((item[0]===pair[0][0])||(item[0]===pair[0][1]))&&((item[1]===pair[1][0])||(item[1]===pair[1][1])))||
+//         (((item[0]===pair[1][0])||(item[0]===pair[1][1]))&&((item[1]===pair[0][0])||(item[1]===pair[0][1])))){
+//        newArr.push(item[0]);
+//        newArr.push(item[1]);
+//      }
+//       else{
+//         newArr.push(item);
+//       }
+//      // else if(item.length==1){
+//      //  newArr.push(item);
+//      // }
+//   });
+//   newArr.forEach((item)=>{
+//     //再把上面得出的数组的每个单个字符分成数组，如果是两个直接分，如果是单个，配对后再分
+//     var pairE=[];
+//    if(item.length===2){
+//       pairArr.push(item.split(''));
+//    }else{
+//       switch(item){
+//         case 'A':
+//           pairE.push('A');
+//           pairE.push('T');
+//           break;
+//         case 'T':
+//           pairE.push('T');
+//           pairE.push('A');
+//           break;
+//         case 'G':
+//           pairE.push('G');
+//           pairE.push('C');
+//           break;
+//         case 'C':
+//           pairE.push('C');
+//           pairE.push('G');
+//           break;  
+//       }
+//       pairArr.push(pairE);
+//     }
+//   });
+//   return pairArr;
+//   // return arr;
+//   // return newArr;
+// }
+//*****************正确的解法,很容易,这里多用一个数组去存储值********************//
+// function pairElement(str) {
+//     var pair = [];
+//     var strArr = str.split('');
+//     strArr.forEach(function(item) {
+//         var pairE = [];
+//         switch (item) {
+//             case 'A':
+//                 pairE.push('A');
+//                 pairE.push('T');
+//                 break;
+//             case 'T':
+//                 pairE.push('T');
+//                 pairE.push('A');
+//                 break;
+//             case 'G':
+//                 pairE.push('G');
+//                 pairE.push('C');
+//                 break;
+//             case 'C':
+//                 pairE.push('C');
+//                 pairE.push('G');
+//                 break;
+//         }
+//         pair.push(pairE);
+//     });
+//     return pair;
+// }
+// console.log(pairElement("GCG"));
+// console.log(pairElement("ATCGA"));
+// console.log(pairElement("TTGAG"));
+// console.log(pairElement("CTCTA"));
+// console.log(pairElement("GCGGATTTAAGCGGATTTAAAGGAT"));
+// console.log('obj'.length==2?'a':'');
+
+
+
+
+
+function fearNotLetter(str) {
+    for (var i = 0; i < str.length; i++) {
+        if (i !== 0) {
+            var num = str.charCodeAt(i);
+            
+            // console.log(num);
+            // console.log(str.charCodeAt(i-1));
+            if (num-1 !== str.charCodeAt(i - 1)) {
+              // console.log(num!==str.charCodeAt(i-1));
+              var miss=String.fromCharCode(num-1)      
+              return miss;
+            }
+            
+        }
+        else if(i===(str.length-1)){
+            return undefined;
+        }
+    }
+    // return miss;
 }
 
-console.log(pairElement("GCG"));
-console.log(pairElement("GCGGATTTAAGCGGATTTAAAGGAT"));
-// console.log('obj'.length==2?'a':'');
+console.log(fearNotLetter("abce"));

@@ -114,12 +114,22 @@
 // console.log(abcd);
 
 // console.log("ABCDEFGHIJKLMNOPQRSTUVWXYZ".charCodeAt(13));
+	
+// var arr=[1,2];
+// // arr.push('1').push('2');不成立
+// arr.forEach((item)=>{ 
+// 	if(item===1){
+// 		item=2
+// 	}
+// 	console.log(item);})
+// console.log(arr);
 
-var arr=[1,2];
-// arr.push('1').push('2');不成立
-arr.forEach((item)=>{ 
-	if(item===1){
-		item=2
-	}
-	console.log(item);})
-console.log(arr);
+// in操作符不能判断数组的元素
+// var pair=["A","T"];
+// var item='TC';
+// console.log(item[0]);
+// console.log(pair);
+// console.log(item[0] in pair[1]);
+// console.log(((item[0] in pair[0])&&(item[1] in pair[1]))||((item[0] in pair[1])&&(item[1] in pair[0])));
+
+console.log('a'.charCodeAt(0));
