@@ -276,7 +276,6 @@
 
 
 
-
 function fearNotLetter(str) {
     for (var i = 0; i < str.length; i++) {
         if (i !== 0) {
