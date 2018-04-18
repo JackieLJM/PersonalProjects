@@ -1,12 +1,12 @@
 import React from 'react';
 //
-const List = (item) => {
+const List = (item, i) => {
 	return (
 		<tr>
-			<td><img src={item.img} alt=""/>{item.username}</td>
-			<td>{}</td>
-			<td>{}</td>
-			<td>{}</td>
+			<td>{i+1}</td>
+			<td><img src={item["img"]} alt=""/>{item.username}</td>
+			<td>{item.recent}</td>
+			<td>{item.alltime}</td>
 		</tr>
 	)
 };

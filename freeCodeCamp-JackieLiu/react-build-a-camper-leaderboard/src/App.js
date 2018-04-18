@@ -21,7 +21,12 @@ class App extends Component {
     this.state = {};
   }
   componentDidMount() {
-    Api.recent().then()
+    Api.recent().then((data) => this.setState({
+      recent: data
+    }));
+    Api.alltime().then((data) => this.setState({
+      alltime: data
+    }));
   }
   render() {
     return (
@@ -44,7 +49,9 @@ class App extends Component {
               </tr>
             </thead>
             <tbody>
-              {()=><List/>}
+              {
+                true?this.state.recent.map((item,i)=><List item={item} i={i}/>):this.state.alltime.map((item)=><List item={item}/>)
+              }
             </tbody>
           </Table>} 
       </div>
