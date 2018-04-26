@@ -10,8 +10,6 @@
 
 
 
-
-
 // import * as ContactsAPI from './data/ContactsAPI'
 
 // let state = {
@@ -114,7 +112,7 @@
 // console.log(abcd);
 
 // console.log("ABCDEFGHIJKLMNOPQRSTUVWXYZ".charCodeAt(13));
-	
+
 // var arr=[1,2];
 // // arr.push('1').push('2');不成立
 // arr.forEach((item)=>{ 
@@ -132,4 +130,14 @@
 // console.log(item[0] in pair[1]);
 // console.log(((item[0] in pair[0])&&(item[1] in pair[1]))||((item[0] in pair[1])&&(item[1] in pair[0])));
 
-console.log('a'.charCodeAt(0));
+// console.log('a'.charCodeAt(0));
+
+// var arr = [{
+// 	a: 'a'
+// }, {
+// 	b: 'b'
+// }];
+// arr.map((item, i) => (console.log(i)))
+
+// var btrueString = new Boolean('true');
+// console.log(btrueString);

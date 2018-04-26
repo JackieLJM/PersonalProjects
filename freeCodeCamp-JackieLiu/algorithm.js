@@ -275,26 +275,41 @@
 
 
 
+// function fearNotLetter(str) {
+//     for (var i = 0; i < str.length; i++) {
+//         if (i !== 0) {
+//             var num = str.charCodeAt(i);
 
-function fearNotLetter(str) {
-    for (var i = 0; i < str.length; i++) {
-        if (i !== 0) {
-            var num = str.charCodeAt(i);
-            
-            // console.log(num);
-            // console.log(str.charCodeAt(i-1));
-            if (num-1 !== str.charCodeAt(i - 1)) {
-              // console.log(num!==str.charCodeAt(i-1));
-              var miss=String.fromCharCode(num-1)      
-              return miss;
-            }
-            
-        }
-        else if(i===(str.length-1)){
-            return undefined;
-        }
-    }
-    // return miss;
+//             // console.log(num);
+//             // console.log(str.charCodeAt(i-1));
+//             if (num-1 !== str.charCodeAt(i - 1)) {
+//               // console.log(num!==str.charCodeAt(i-1));
+//               var miss=String.fromCharCode(num-1)      
+//               return miss;
+//             }
+
+//         }
+//         else if(i===(str.length-1)){
+//             return undefined;
+//         }
+//     }
+//     // return miss;
+// }
+
+// console.log(fearNotLetter("abce"));
+
+
+
+// Sorted Union
+// 这里的虚参arr，是指函数传入的第一个值
+function uniteUnique(arr) {
+    var array = Array.from(arguments);
+    var newArr = array.reduce(function(pre, cur) {
+        return pre.concat(cur);
+    }, []);
+    return [...new Set(newArr)];
+    // return array;
 }
 
-console.log(fearNotLetter("abce"));
+console.log(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]));
+console.log(uniteUnique([1, 3, 2], [1, [5]], [2, [4]]));

@@ -28,3 +28,6 @@
 [submodule "mobile-flashcards"]
 	path = mobile-flashcards
 	url = https://github.com/jackieljm/mobile-flashcards.git
+[submodule "wechat-mini-program-nd-news"]
+	path = wechat-mini-program-nd-news
+	url = https://github.com/JackieLJM/wechat-mini-program-nd-news.git

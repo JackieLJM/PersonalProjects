@@ -274,3 +274,6 @@ arrString.split('').reduce(function(res, cur) {
     res[cur] ? res[cur] ++ : res[cur] = 1
     return res;
 }, {})
+
+
+document.documentElement.style.fontSize = window.innerWidth + 'px';
