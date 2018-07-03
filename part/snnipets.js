@@ -64,6 +64,27 @@ function deepCopy(parent, child) {
 }
 //2:
 let obj3 = JSON.parse(JSON.stringify(obj1))
+//3:
+function deepCopy(o) {
+    if (o instanceof Array) {
+        var n = [];
+        for (var i = 0; i < o.length; ++i) {
+            n[i] = deepCopy(o[i]);
+        }
+        return n;
+    } else if (o instanceof Function) {
+        var n = new Function("return " + o.toString())();
+        return n
+    } else if (o instanceof Object) {
+        var n = {}
+        for (var i in o) {
+            n[i] = deepCopy(o[i]);
+        }
+        return n;
+    } else {
+        return o;
+    }
+}
 
 // shallow clone
 // 1:
